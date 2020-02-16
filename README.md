@@ -1,6 +1,6 @@
 # frdl
 
-This repository deals with the `Webfan`, `webfan3`, `frdl` and `frdlweb` [projects][git submodules] and namespaces, its implementations[[1]][[2]] and [dependencies][git submodules].
+This repository deals with the `Webfan`, `webfan3`, `frdl` and `frdlweb` projects[[4]] and namespaces, its implementations[[1]][[2]] and dependencies[[4]].
 
 <div>
   <h3><strong>What is this about?</strong></h3>
@@ -27,6 +27,7 @@ This repository deals with the `Webfan`, `webfan3`, `frdl` and `frdlweb` [projec
 
 
 #### References
-[git submodules]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
+[4]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 [1]: https://packages.frdl.de/
 [2]: https://packagist.org/packages/frdl/
+[3]: https://packagist.org/users/webfan/packages/
