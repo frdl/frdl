@@ -8,10 +8,10 @@ its implementations[[1]][[2]][[3]] and dependencies[[4]].
   <ul> 
     <li>Free Open Source Software</li> 
     <li><strong>Frdlweb CMS</strong> 
-      <a href="https://webfan.de/install/"><u>Admin-Interface/Installer</u></a> <em>Beta-Status</em>
+      <a href="https://frdl.webfan.de/install/"><u>Admin-Interface/Installer</u></a> <em>Beta-Status</em>
     </li>
     <li>
-      <a href="https://webfan.de/install/npm/"><u>frdl.js</u></a>
+      <a href="https://frdl.webfan.de/install/npm/"><u>frdl.js</u></a>
       Helper-UI <em>Beta-Status</em>
     </li>
     <li>
