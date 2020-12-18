@@ -19,4 +19,5 @@
 
 ---
 ### About
-+ [Imprint](about/imprint.md)
++ [Datenschutzerklaerung Privacy Policy](about/datenschutzerklaerung)
++ [Imprint](about/imprint)
