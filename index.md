@@ -1,6 +1,7 @@
 # Frdlweb
 
 + [Webfan Homepagesystem](https://webfan.de)
++ [Register a free OID/WEID](https://registry.frdl.de/?goto=com.frdlweb.freeweid)
 + [Source Code](https://github.com/frdl)
 
 ### Meta
