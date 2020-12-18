@@ -7,9 +7,9 @@
 ---
 ### Software
 
-+ [Installation](https://frdl.webfan.de/install/)
-+ [Composer](https://packages.frdl.de)
-+ [Source Code](https://github.com/frdl)
++ [Installation Wizard](https://frdl.webfan.de/install/)
++ [Composer Packages](https://packages.frdl.de)
++ [Code Repositories](https://github.com/frdl)
 
 ---
 ### Meta
