@@ -21,5 +21,5 @@
 ---
 ### About
 
-+ [Datenschutzerklaerung Privacy Policy](about/datenschutzerklaerung)
-+ [Imprint](about/imprint)
++ [Datenschutzerklaerung Privacy Policy](/about/datenschutzerklaerung)
++ [Imprint](/about/imprint)
