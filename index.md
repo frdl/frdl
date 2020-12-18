@@ -18,8 +18,4 @@
 + [Status](https://status.frdl.de)
 + [@Twitter](https://twitter.com/TillWehowski)
 
----
-### About
 
-+ [Datenschutzerklaerung Privacy Policy](/about/datenschutzerklaerung)
-+ [Imprint](/about/imprint)
