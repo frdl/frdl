@@ -1,5 +1,5 @@
 +++
-nav: 
+navigation: 
 - title: Home
   url: /
 
