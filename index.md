@@ -2,6 +2,7 @@
 # Frdlweb
 
 + [Webfan Homepagesystem](https://webfan.de)
++ [`Homepagespeicher` Domain Registrant and Webhoster](https://homepagespeicher.de)
 + [Register a free OID/WEID](https://registry.frdl.de/?goto=com.frdlweb.freeweid)
 
 ---
