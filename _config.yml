@@ -1,14 +1,12 @@
 theme: jekyll-theme-cayman
-nav: 
+navigation: 
 - title: Home
   url: /
 
-- title: Group of Things
-  url: /group/
+- title: About
+  url: /about/
   sublinks:
-    - title: Sub-item 1
-      url: /group/si1
-    - title: Sub-item 2
-      url: /group/si2
-    - title: Sub-item 3
-      url: /group/si3
+    - title: Imprint
+      url: /about/imprint
+    - title: Privacy
+      url: /about/privacy
