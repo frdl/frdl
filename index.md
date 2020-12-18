@@ -1,3 +1,18 @@
++++
+nav: 
+- title: Home
+  url: /
+
+- title: About
+  url: /about/
+  sublinks:
+    - title: Imprint
+      url: /about/imprint
+    - title: Privacy
+      url: /about/privacy
++++
+
+
 # Frdlweb
 
 + [Webfan Homepagesystem](https://webfan.de)
