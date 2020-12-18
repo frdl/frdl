@@ -5,4 +5,5 @@
 
 # Meta
 
-+ [Statusreports](https://status.frdl.de)
++ [Status](https://status.frdl.de)
++ [@Twitter](https://twitter.com/TillWehowski)
