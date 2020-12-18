@@ -1,0 +1,2 @@
+* [Home](/)
+* [Impressum](/about/imprint)
