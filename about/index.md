@@ -3,5 +3,5 @@
 
 # About
 
-+ [Datenschutzerklaerung Privacy Policy](about/datenschutzerklaerung)
-+ [Imprint](about/imprint)
++ [Datenschutzerklaerung Privacy Policy](datenschutzerklaerung)
++ [Imprint](imprint)
