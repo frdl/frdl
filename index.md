@@ -3,7 +3,7 @@
 
 + [`Webfan Homepagesystem` Websites](https://webfan.de)
 + [`Homepagespeicher` Domain Registrant and Webhoster](https://homepagespeicher.de)
-+ [Register a free `WEID` as `OID`](https://registry.frdl.de/?goto=com.frdlweb.freeweid)
++ Registry of [`WEID`](https://registry.frdl.de/?goto=com.frdlweb.freeweid) as *free`OID`(https://registry.frdl.de/?goto=oidplus%3Acom.viathinksoft.freeoid)* 
 
 ---
 ### Software
