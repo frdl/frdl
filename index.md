@@ -1,4 +1,4 @@
-# Frdlweb [[/favicon.ico|Frdlweb/Webfan Icon]]
+# [![Frdlweb/Webfan Icon](/favicon.ico) Frdlweb](https://frdl.io)
 + [`Webfan Homepagesystem` Websites](https://webfan.de)
 + [`Homepagespeicher` Domain Registrant and Webhoster](https://homepagespeicher.de)
 + [`WEID` Registry](https://registry.frdl.de/?goto=com.frdlweb.freeweid)
