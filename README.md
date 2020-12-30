@@ -1,3 +1,3 @@
-# frdl
+# Frdlweb [[/favicon.ico|Frdlweb/Webfan Icon]]
 Webfan
 Base, ToDo, Tests, Assets, Mirror...
