@@ -11,6 +11,9 @@ Wattenscheider Straße 59
 
 Germany
 
+----
+
+USt-IdNr.: DE280259761
 
 Telefon: +49-234-7921596
 
