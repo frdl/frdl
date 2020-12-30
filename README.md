@@ -1,3 +1,3 @@
-# Frdlweb [[/favicon.ico|Frdlweb/Webfan Icon]]
+# [Frdlweb ![Frdlweb/Webfan Icon](/favicon.ico)](https://frdl.io)
 Webfan
 Base, ToDo, Tests, Assets, Mirror...
