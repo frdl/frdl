@@ -9,6 +9,7 @@
 + [Code Repositories](https://github.com/frdl)
 
 ### Meta
++ [Imprint](/about/imprint.html)
 + [Status](https://status.frdl.de)
 + [@Twitter](https://twitter.com/TillWehowski)
 
