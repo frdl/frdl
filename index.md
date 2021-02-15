@@ -1,5 +1,7 @@
-# [![Frdlweb/Webfan Icon](/favicon.ico) Frdlweb](https://frdl.io)
-Welcome to the World of [Frdlweb](/about/) Software and Source Code Repositories!
+# [![Frdlweb/Webfan Icon](/favicon.ico) Frdlweb Software](https://frdl.io)
+Welcome to the World of Frdlweb Software and Source Code Repositories, Websites, Services and Products Overview!
+[Learn more about `Frdlweb`](/about/)
+
 
 ### Service and Products
 + [`Webfan Homepagesystem` Websites](https://webfan.de)
@@ -10,7 +12,7 @@ Welcome to the World of [Frdlweb](/about/) Software and Source Code Repositories
 ### Software
 + [Installation Wizard](https://frdl.webfan.de/install/)
 + [Composer Packages](https://packages.frdl.de)
-+ [Code Repositories](https://github.com/frdl)
++ [Code Repositories](https://github.com/frdl)  
 
 ### Meta
 + [About](/about/)
