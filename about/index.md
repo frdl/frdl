@@ -1,4 +1,4 @@
-[![Home Icon](/favicon.ico) Frdlweb](/)
+[![Home Icon](/favicon.ico) Home](/)
 
 # About Frdlweb
 ...coming soon...
