@@ -1,5 +1,4 @@
-
-[Home](/)
+[![Home Icon](/favicon.ico) Home](/)
 
 # Imprint
 
