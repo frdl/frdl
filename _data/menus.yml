@@ -1,4 +1,3 @@
----
 header:
   - url: /
     title: Home
@@ -6,4 +5,3 @@ header:
   - url: /about/
     title: About Frdlweb
     identifier: about
----
