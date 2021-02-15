@@ -1,4 +1,4 @@
-# [![Frdlweb/Webfan Icon](https://frdl.webfan.de/bilder/domainundhomepagespeicher/produkte/kurzbeschreibung/24.251.251THP.produktbild_artikelbeschreibung.jpg) Frdlweb Syndication](https://frdl.io)
+# ![Frdlweb/Webfan Icon](https://frdl.webfan.de/bilder/domainundhomepagespeicher/produkte/kurzbeschreibung/24.251.251THP.produktbild_artikelbeschreibung.jpg) Frdlweb Syndication
 Welcome to the World of [Frdlweb](https://Frdlweb.de), its [Software](https://frdl.webfan.de/install/) and Source Code Repositories, Websites, Services and Products Overview! ***We providez soft- hard- and friendlyness!*** [Learn more about `Frdlweb`...](/about/)
 
 
