@@ -1,5 +1,5 @@
 ---
-header:
+menue:
   - url: /
     title: Home
     identifier: home
