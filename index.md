@@ -1,3 +1,13 @@
+---
+header:
+  - url: /
+    title: Home
+    identifier: home
+  - url: /about/
+    title: About Frdlweb
+    identifier: about
+---
+
 # [![Frdlweb/Webfan Icon](/favicon.ico) Frdlweb](https://frdl.io)
 + [`Webfan Homepagesystem` Websites](https://webfan.de)
 + [`Homepagespeicher` Domain Registrant and Webhoster](https://homepagespeicher.de)
