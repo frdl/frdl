@@ -1,14 +1,7 @@
----
-menue:
-  - url: /
-    title: Home
-    identifier: home
-  - url: /about/
-    title: About Frdlweb
-    identifier: about
----
-
 # [![Frdlweb/Webfan Icon](/favicon.ico) Frdlweb](https://frdl.io)
+Welcome to the [Frdlweb](/about/) Source Code Repositories!
+
+### Service and Products
 + [`Webfan Homepagesystem` Websites](https://webfan.de)
 + [`Homepagespeicher` Domain Registrant and Webhoster](https://homepagespeicher.de)
 + [`WEID` Registry](https://registry.frdl.de/?goto=com.frdlweb.freeweid)
@@ -20,6 +13,7 @@ menue:
 + [Code Repositories](https://github.com/frdl)
 
 ### Meta
++ [About](/about/)
 + [Imprint](imprint.html)
 + [Status](https://status.frdl.de)
 + [@Twitter](https://twitter.com/TillWehowski)
