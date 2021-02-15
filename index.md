@@ -1,7 +1,9 @@
-# [![Frdlweb/Webfan Icon](/favicon.ico) Frdlweb Software](https://frdl.io)
-Welcome to the World of Frdlweb Software and Source Code Repositories, Websites, Services and Products Overview!
+# [![Frdlweb/Webfan Icon](https://frdl.webfan.de/bilder/domainundhomepagespeicher/produkte/kurzbeschreibung/24.251.251THP.produktbild_artikelbeschreibung.jpg) Frdlweb Software](https://frdl.io)
+Welcome to the World of [Frdlweb](https://Frdlweb.de), its [Software](https://frdl.webfan.de/install/) and Source Code Repositories, Websites, Services and Products Overview!
 
-[Learn more about `Frdlweb`](/about/)
+***We providez soft- hard- and friendlyness!***
+
+[Learn more about `Frdlweb`...](/about/)
 
 
 ### Service and Products
