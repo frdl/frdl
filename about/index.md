@@ -9,4 +9,4 @@ Its main intend is to brand and group the development and productional infrastru
 
 Please note that ***frdl*** is an abbreviation of the german word `"freundlich"`, meaning `"friendly"` in english. 
 
-So at least, we the Wehowskis, our friends, partners, customers and users, we are the ***Frdlweb*** all together!
+So at least, we the Wehowskis, our friends, partners, customers and users, we **make** the ***Frdlweb*** all together!
