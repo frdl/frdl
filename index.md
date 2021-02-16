@@ -15,7 +15,7 @@ Welcome to the World of [Frdlweb](https://Frdlweb.de), its [Software](https://fr
 
 ### Meta
 + [About](/about/)
-+ [Status](https://status.frdl.de)Syndication
++ [Status](https://status.frdl.de)
 + [@Twitter](https://twitter.com/TillWehowski)
 + [Privacy Policy](https://registry.frdl.de/datenschutzerklaerung.html)
 + [Imprint](imprint.html)
