@@ -1,5 +1,9 @@
 # ![Frdlweb/Webfan Icon](https://frdl.webfan.de/bilder/domainundhomepagespeicher/produkte/kurzbeschreibung/24.251.251THP.produktbild_artikelbeschreibung.jpg) Frdlweb Syndication
-Welcome to the World of [Frdlweb](https://Frdlweb.de), its [Software](https://frdl.webfan.de/install/) and [Source Code](https://github.com/frdl) Repositories, Websites, [Services](https://frdl.de) and [Products](https://domainundhomepagespeicher.de) Overview! ***We providez soft- hard- and friendlyness!*** [Learn more about `Frdlweb`...](/about/)
+Welcome to the World of [Frdlweb](https://Frdlweb.de), its [Software](https://frdl.webfan.de/install/) and [Source Code](https://github.com/frdl) Repositories, Websites, [Services](https://frdl.de) and [Products](https://domainundhomepagespeicher.de) Overview! 
+
+***We providez soft- hard- and friendlyness!*** 
+
+[Learn more about `Frdlweb`...](/about/)
 
 
 ### Services and Products
