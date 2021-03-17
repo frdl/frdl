@@ -1,11 +1,11 @@
 # ***webfantize*** your Frdlweb Implementations, just deploy it!
-...
+...this documentation is still under construction...
 
 # Deployment Packages
 Those packages are either running on a dev-server, private packages, virtual or alias packages. 
 E.g. DI-Containers, or Configuration...
 
-## @frdl/frdlweb
+## @frdl/~deployment
 - @frdl/config
 - @frdl/server
   - @frdl/app
