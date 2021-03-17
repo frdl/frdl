@@ -5,9 +5,8 @@
 Those packages are either running on a dev-server, private packages, virtual or alias packages. 
 E.g. DI-Containers, or Configuration...
 
-## @frdl/server#
-- @frdl/cdn-race
-- @frdl/alias
+## @frdl/frdlweb
+- @frdl/config
 - @frdl/server
   - @frdl/app
   - @frdl/workspace
@@ -20,3 +19,7 @@ E.g. DI-Containers, or Configuration...
   - @frdl/web
   - @frdl/api
   - @frdl/cdn
+
+### @frdl/modules
+- @frdl/cdn-race
+- @frdl/alias
