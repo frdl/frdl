@@ -3,7 +3,7 @@ plugins:
   - jekyll-seo-tag
   - html-pipeline
   - jekyll-paginate
-  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-titles-from-headings
 titles_from_headings:
   enabled:     true
@@ -15,4 +15,5 @@ defaults:
       path: "/" # an empty string here means all files in the project      
       type: "page"
     values:
-      layout: "default"  
+      layout: "default",
+      sitemap: true
