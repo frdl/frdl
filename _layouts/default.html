@@ -7,12 +7,50 @@
 	  <link rel="stylesheet" href="https://frdl.ws/cloudsharing/apps/cms_pico/appdata_public/themes/2ugfBnBHs2/webfantized-friendly/css/style.css" type="text/css" />	  
   </head>
   <body>
+   <div id="header" role="banner">
+        <div class="container">
+            <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+                <span class="icon-menu" aria-hidden="true"></span>
+                <span class="sr-only">Toggle Menu</span>
+            </a>
+                            <div id="logo" aria-hidden="true">
+                    <a href="/">
+                        <img src="https://frdl.ws/cloudsharing/apps/cms_pico/appdata_public/themes/2ugfBnBHs2/webfantized-friendly/img/pico-white.svg" alt="" />
+                    </a>
+                </div>
+                        <div class="tagline">
+                <a href="/">
+                    <h1>Frdlweb Syndication</h1>
+                    <p>Welcome to the World of Frdlweb...!</p>
+                </a>
+            </div>
+            <nav id="nav" role="navigation" tabindex="-1">
+                <ul>
+                                          
+			<li>
+                            <a href="/">Home</a>
+                        </li>
+                                          
+			<li>
+                           <a href="/about/">About Frdlweb</a>
+                        </li>           
+			
+			<li>
+                          <a href="/cdn/">CDN</a>
+                        </li>
+                                   
+		    </ul>
+            </nav>
+        </div>
+    </div>	
+	
+<!--
     <nav>
       <a href="/">Home</a>
       <a href="/about/">About Frdlweb</a>
       <a href="/cdn/">CDN</a>
     </nav>
-
+-->
     <section>
       {{ content }}
     </section>
