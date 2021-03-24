@@ -1,4 +1,4 @@
-buildhash: abcdef0123456789
+buildhash: "abcdef0123456789"
 url: https://frdl.io
 theme:  jekyll-theme-cayman
 plugins:
@@ -16,5 +16,5 @@ defaults:
       path: "/" # an empty string here means all files in the project      
 #      type: "page"
     values:
-      layout: "default",
+      layout: "default"
       sitemap: true
