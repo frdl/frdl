@@ -1,3 +1,8 @@
+---
+layout: page
+title: About Frdlweb
+---
+
 [![Home Icon](/favicon.ico) Home](/)
 
 # About Frdlweb
