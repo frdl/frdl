@@ -1,3 +1,4 @@
+url: https://frdl.io
 theme:  jekyll-theme-cayman
 plugins:
   - jekyll-seo-tag
