@@ -1,8 +1,3 @@
----
-layout: default
-title: About Frdlweb
----
-
 [![Home Icon](/favicon.ico) Home](/)
 
 # About Frdlweb
