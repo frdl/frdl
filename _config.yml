@@ -4,11 +4,10 @@ plugins:
   - jekyll-seo-tag
   - html-pipeline
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-titles-from-headings
 titles_from_headings:
   enabled:     true
-  strip_title: true
+  strip_title: false
   collections: false
 defaults:
   -
