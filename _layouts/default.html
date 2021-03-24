@@ -9,7 +9,7 @@
   <body>
    <div id="header" role="banner">
         <div class="container">
-            <a id="nav-toggle" title="Toggle Menu" role="button"  aria-controls="nav">
+            <a id="nav-toggle" title="Toggle Menu" role="button"  aria-controls="nav" aria-expanded="false" tabindex="1">
                 <span class="icon-menu"></span>
                 <span class="sr-only">Toggle Menu</span>
             </a>
@@ -26,10 +26,10 @@
                 </a>           
 	</div>
 		
-            <div id="nav" role="navigation">
+            <div id="nav" role="navigation" tabindex="-1">
                 <ul>
                                           
-			<li>
+			<li class="active">
                             <a href="/">Home</a>
                         </li>
                                           
