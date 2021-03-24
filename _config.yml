@@ -1,4 +1,3 @@
-buildhash: "abcdef0123456789"
 url: https://frdl.io
 theme:  jekyll-theme-cayman
 plugins:
