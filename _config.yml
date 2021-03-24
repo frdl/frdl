@@ -9,3 +9,9 @@ titles_from_headings:
   enabled:     true
   strip_title: false
   collections: false
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"  
