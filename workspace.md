@@ -1,0 +1,339 @@
+---
+title: WORKSPACE
+---
+
+# WORKSPACE
+
+	<main>
+		<h1>Nextcloud file picker</h1>
+		<h2>
+			This is an example page importing the file picker wrapper.
+			<br>
+			No need to use Vue.js to include this component in your web application 😁🎉
+			Checkout the <a href="https://github.com/eneiluj/nextcloud-webdav-filepicker/blob/master/examples/without-vue.html">source file</a>
+		</h2>
+		<p>
+			You can try the file picker with your Nextcloud instance from this page.
+			<br>
+			Make sure you installed the
+			<a href="https://apps.nextcloud.com/apps/webapppassword">WebAppPassword app</a>
+			and added <b id="domainToAuthorize"></b> as allowed origin in WebAppPassword settings.
+		</p>
+		<br>
+		<p>
+			When following fields are changed, corresponding component update methods are called.
+		</p>
+		<h3>Authentication</h3>
+		<p>
+			Leave login and password fields empty to let the file picker open an authentication popup and get a temporary app password (web login flow).
+		</p>
+		<input id="url" type="text" placeholder="Nextcloud address" value="https://localhost/dev/server">
+		<input id="login" type="text" placeholder="login" value="">
+		<input id="password" type="password" placeholder="password" value="">
+		<input id="accessToken" type="password" placeholder="OAuth access token" value="">
+		<h3>Theme color</h3>
+		<label for="color">Main file picker color</label>
+		<input id="color" type="color" value="#0082c9">
+		<br>
+		<label for="darkmode">Dark mode</label>
+		<input id="darkmode" type="checkbox">
+		<h3>Custom button which calls the "getFilesPath" method</h3>
+		<button id="selectButton">My custom button to select files</button>
+		<h3>Custom button which calls the "getFilesLink" method</h3>
+		<button id="linkButton">My custom button to get files link</button>
+		<h3>
+			File picker component
+		</h3>
+		<p>
+			NcFilePicker component is mounted under the following line. It shows every button by default.
+		</p>
+		<hr>
+		<div id="mount_point"></div>
+		<hr>
+		<h3>Results</h3>
+		<p id="results"></p>
+		<div class="ribbon">
+			<a href="https://github.com/eneiluj/nextcloud-webdav-filepicker" target="_blank">Repository and documentation</a>
+		</div>
+	</main>
+	<footer style="position: fixed; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.1);">
+		Dev version
+	</footer>
+</body>
+<!--script src="../js/filePickerWrapper.js"></script-->
+<script>
+	function main() {
+		// get url values
+		const uri = window.location.search.substring(1)
+		const params = new URLSearchParams(uri)
+		const login = params.get('login')
+		if (login) {
+			document.getElementById('login').value = login
+		}
+		const password = params.get('password')
+		if (password) {
+			document.getElementById('password').value = password
+		}
+		const accessToken = params.get('accessToken')
+		if (accessToken) {
+			document.getElementById('accessToken').value = accessToken
+		}
+		const url = params.get('url')
+		if (url) {
+			document.getElementById('url').value = url
+		}
+		const color = params.get('color')
+		if (color) {
+			document.getElementById('color').value = '#' + color
+		}
+		const darkmode = params.get('darkMode')
+		if (darkmode) {
+			document.getElementById('darkmode').checked = darkmode === '1'
+		}
+
+		const initialUrl = document.getElementById('url').value
+		const initialLogin = document.getElementById('login').value
+		const initialPassword = document.getElementById('password').value
+		const initialAccessToken = document.getElementById('accessToken').value
+		const initialColor = document.getElementById('color').value
+		const initialDarkMode = document.getElementById('darkmode').checked
+
+		const filepicker = window.createFilePicker('mount_point', {
+			url: initialUrl,
+			login: initialLogin,
+			password: initialPassword,
+			accessToken: initialAccessToken,
+			useCookies: false,
+			themeColor: initialColor,
+			darkMode: initialDarkMode,
+			multipleDownload: true,
+			multipleUpload: true,
+			enableGetFilesPath: true,
+			enableGetFilesLink: true,
+			enableDownloadFiles: true,
+			enableGetSaveFilePath: true,
+			enableGetUploadFileLink: true,
+			enableUploadFiles: true,
+		})
+
+		// monitor form value change
+		document.getElementById('login').addEventListener('input', (e) => {
+			filepicker.updateLogin(e.target.value)
+		})
+
+		document.getElementById('password').addEventListener('input', (e) => {
+			filepicker.updatePassword(e.target.value)
+		})
+
+		document.getElementById('accessToken').addEventListener('input', (e) => {
+			filepicker.updateAccessToken(e.target.value)
+		})
+
+		document.getElementById('url').addEventListener('input', (e) => {
+			filepicker.updateUrl(e.target.value)
+		})
+
+		document.getElementById('color').addEventListener('change', (e) => {
+			filepicker.setMainColor(e.target.value)
+		})
+
+		document.getElementById('darkmode').addEventListener('change', (e) => {
+			filepicker.setDarkMode(e.target.checked)
+		})
+
+		document.getElementById('selectButton').addEventListener('click', (e) => {
+			filepicker.getFilesPath()
+		})
+
+		document.getElementById('linkButton').addEventListener('click', (e) => {
+			filepicker.getFilesLink({
+				expirationDate: new Date('2050-01-01'),
+				protectionPassword: 'example passwd',
+				allowEdition: true,
+				linkLabel: 'custom link label',
+			})
+		})
+
+		// events coming from the file picker
+		document.addEventListener('filepicker-unauthorized', (e) => {
+			console.debug('file picker got an unauthorized response')
+			console.debug(e.detail)
+		})
+
+		document.addEventListener('get-files-path', (e) => {
+			console.debug('no vue, received "get-files-path" event')
+			console.debug(e.detail)
+			const resultsP = document.getElementById('results')
+			resultsP.innerHTML = 'Path of selected files:'
+			e.detail.selection.forEach((path) => {
+				const p = document.createElement('p')
+				p.textContent = path
+				resultsP.appendChild(p)
+			})
+		})
+
+		document.addEventListener('get-save-file-path', (e) => {
+			console.debug('no vue, received "get-save-file-path" event')
+			console.debug(e.detail)
+			document.getElementById('results').innerHTML = `Selected target directory: ${e.detail.path}`
+		})
+
+		document.addEventListener('upload-path-link-generated', (e) => {
+			console.debug('no vue, received "upload-path-link-generated" event')
+			console.debug(e.detail)
+			const resultsP = document.getElementById('results')
+			resultsP.innerHTML = `File upload link in ${e.detail.targetDir}:`
+			const p = document.createElement('p')
+			p.textContent = e.detail.link
+			resultsP.appendChild(p)
+		})
+
+		document.addEventListener('get-files-link', (e) => {
+			console.debug('no vue, received "get-files-link" event')
+			console.debug(e.detail)
+			const resultsP = document.getElementById('results')
+			resultsP.innerHTML = ''
+
+			if (e.detail.shareLinks) {
+				const pl = document.createElement('p')
+				pl.textContent = 'Nextcloud public links:'
+				resultsP.appendChild(pl)
+				e.detail.shareLinks.forEach((link) => {
+					const pp = document.createElement('p')
+					pp.textContent = 'path: "' + link.path + '" '
+					const a = document.createElement('a')
+					a.textContent = link.url
+					a.setAttribute('href', link.url)
+					pp.appendChild(a)
+					resultsP.appendChild(pp)
+				})
+			}
+
+			const pw = document.createElement('p')
+			pw.textContent = 'File links:'
+			resultsP.appendChild(pw)
+			e.detail.webdavLinks.forEach((l) => {
+				const a = document.createElement('a')
+				a.textContent = l
+				a.setAttribute('href', l)
+				resultsP.appendChild(a)
+				resultsP.appendChild(document.createElement('br'))
+			})
+
+			const p = document.createElement('p')
+			p.textContent = 'List of paths:'
+			resultsP.appendChild(p)
+			e.detail.pathList.forEach((path) => {
+				const pp = document.createElement('p')
+				pp.textContent = path
+				resultsP.appendChild(pp)
+			})
+			const po = document.createElement('p')
+			po.textContent = 'OCS URL to create share link: ' + e.detail.ocsUrl
+			resultsP.appendChild(po)
+			const pl = document.createElement('p')
+			pl.textContent = 'Generic share link: ' + e.detail.genericShareLink
+			resultsP.appendChild(pl)
+		})
+
+		document.addEventListener('files-uploaded', (e) => {
+			console.debug('no vue, received "files-uploaded" event')
+			console.debug(e.detail)
+			const resultsP = document.getElementById('results')
+			resultsP.innerHTML = ''
+
+			if (e.detail.successFiles.length > 0) {
+				const p = document.createElement('p')
+				p.textContent = `These files were uploaded in ${e.detail.targetDir}:`
+				resultsP.appendChild(p)
+				e.detail.successFiles.forEach((f) => {
+					const p = document.createElement('p')
+					p.textContent = f.name
+					resultsP.appendChild(p)
+				})
+			}
+
+			if (e.detail.errorFiles.length > 0) {
+				const p = document.createElement('p')
+				p.textContent = '!!! Those files could not be uploaded:'
+				resultsP.appendChild(p)
+
+				e.detail.errorFiles.forEach((f) => {
+					const p = document.createElement('p')
+					p.textContent = f.name
+					resultsP.appendChild(p)
+				})
+			}
+		})
+
+		document.addEventListener('files-downloaded', (e) => {
+			console.debug('download errors')
+			console.debug(e.detail.errorFilePaths)
+			const files = e.detail.successFiles
+			console.debug('no vue, something was downloaded')
+			const resultsP = document.getElementById('results')
+			resultsP.innerHTML = 'Downloaded files: <br>'
+			files.forEach(file => {
+				console.debug('File : ' + file.name)
+				console.debug(file)
+				const reader = new FileReader()
+				reader.readAsText(file)
+				reader.onload = () => {
+					console.debug(reader.result)
+					const p = document.createElement('P')
+					p.textContent = 'File ' + file.name + ': ' + reader.result.slice(0, 100) + '...'
+					resultsP.appendChild(p)
+				}
+				reader.onerror = () => {
+					console.error('Impossible to read downloaded file')
+					console.debug(reader.error)
+				}
+			})
+		})
+
+		document.addEventListener('filepicker-closed', (e) => {
+			console.debug('Filepicker CLOSED')
+		})
+		document.addEventListener('filepicker-manually-closed', (e) => {
+			console.debug('Filepicker manually CLOSED')
+		})
+	}
+
+	document.addEventListener('DOMContentLoaded', (event) => {
+		document.getElementById('domainToAuthorize').textContent = window.location.protocol + '//' + window.location.host
+
+import('https://npm.packages.js.api.webfan.de/nextcloud-webdav-filepicker/js/filePickerWrapper.js')
+	.then(() => { main() })
+	
+	})
+</script>
+
+<style type="text/css">
+.ribbon {
+	background-color: #0082c9;
+	overflow: hidden;
+	white-space: nowrap;
+	position: fixed;
+	right: -70px;
+	top: 75px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-box-shadow: 0 0 10px #888;
+	-moz-box-shadow: 0 0 10px #888;
+	box-shadow: 0 0 10px #888;
+}
+.ribbon a {
+	border: 1px solid #faa;
+	color: #fff;
+	display: block;
+	font: bold 100% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 1px 0;
+	padding: 10px 50px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 0 5px #444;
+}
+</style>
