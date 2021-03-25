@@ -5,23 +5,36 @@ title: WORKSPACE
 # WORKSPACE
 
 
+<style>
+.d-none{
+ display:none !important;
+	}
+	
+</style>
+	
 <div>
 <main>
+	<small>
 <input id="url" type="text" placeholder="Cloud Server Address" value="https://frdl.ws/cloudsharing/">
+	<input type="checkbox" onclick="document.getElementById('credentialsForms').classList.toggle('d-none');" /> with optional credentials
+	<span id="credentialsForms" class="d-none">
+		<br />
 		<input id="login" type="text" placeholder="Username or Email" value="">
 		<input id="password" type="password" placeholder="password" value="">
 		<input id="accessToken" type="password" placeholder="OAuth access token" value="">
+	</span>
+	</small>		
 		<h3>Design</h3>
 		<label for="color">Main file picker color</label>
 		<input id="color" type="color" value="#0082c9">
 		<br>
 		<label for="darkmode">Dark mode</label>
 		<input id="darkmode" type="checkbox">
-		<h3>Custom button which calls the "getFilesPath" method</h3>
-		<button id="selectButton">My custom button to select files</button>
-		<h3>Custom button which calls the "getFilesLink" method</h3>
-		<button id="linkButton">My custom button to get files link</button>
-		<h3>Files</h3>
+
+		<button id="selectButton">select files</button>
+
+		<button id="linkButton">link files</button>
+
 		<div id="mount_point"></div>
 		<hr>
 		<h3>Results</h3>
