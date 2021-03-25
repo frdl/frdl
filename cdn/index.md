@@ -6,7 +6,7 @@ title: CDN of Frdlweb
 Fetch source code from public content delivery networks...
 
 
-## NPM Package (Javascript)
+## NPM Package ([Javascript](https://www.npmjs.com/~webfan))
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
  
@@ -35,7 +35,7 @@ Fetch source code from public content delivery networks...
 
 
 
-## Class File (PHP)
+## Class File ([PHP](https://frdl.webfan.de/install/?source=*))
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
   <input type="hidden" name="packageType" value="php-class" /> 
@@ -60,7 +60,7 @@ Fetch source code from public content delivery networks...
 
 
 
-## Composer Package (PHP)
+## Composer Package ([PHP](https://packages.frdl.de))
 *This look up is marked as @ToDo...*
 <div class="container">
 <form disabled action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
