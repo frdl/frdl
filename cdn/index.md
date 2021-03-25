@@ -33,31 +33,6 @@ Fetch source code from public content delivery networks...
 
 
 
-## Composer Package (PHP)
-*This look up is marked as @ToDo...*
-<div class="container">
-<form disabled action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
-  <input type="hidden" name="packageType" value="php-pkg" /> 
- 
- <legend>Package Name</legend>
- <input type="text" name="packageName" placeholder="frdl/remote-psr4"  value="frdl/remote-psr4" /> 
- 
- 
- <legend>Package Version</legend>
- <input type="text" name="packageVersion" placeholder="latest"  value="latest" /> 
- 
- <legend>View</legend>
- <select name="plugin">
- <option value="raw" selected>Raw Source Code</option>
- <option value="bundle">Zipped Package</option>
- <option value="browse" disabled>Pretty Browse Repository</option>
- </select>
- 
-  <input type="submit" value="Go..." /> 
-</form>
-</div>
-
-
 
 
 ## Class File (PHP)
@@ -82,3 +57,32 @@ Fetch source code from public content delivery networks...
   <input type="submit" value="Go..." /> 
 </form>
 </div>
+
+
+
+## Composer Package (PHP)
+*This look up is marked as @ToDo...*
+<div class="container">
+<form disabled action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
+  <input type="hidden" name="packageType" value="php-pkg" /> 
+ 
+ <legend>Package Name</legend>
+ <input type="text" name="packageName" placeholder="frdl/remote-psr4"  value="frdl/remote-psr4" /> 
+ 
+ 
+ <legend>Package Version</legend>
+ <input type="text" name="packageVersion" placeholder="latest"  value="latest" /> 
+ 
+ <legend>View</legend>
+ <select name="plugin">
+ <option value="raw" selected>Raw Source Code</option>
+ <option value="bundle">Zipped Package</option>
+ <option value="browse" disabled>Pretty Browse Repository</option>
+ </select>
+ 
+  <input type="submit" value="Go..."  disabled /> 
+</form>
+</div>
+
+
+
