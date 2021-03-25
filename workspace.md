@@ -68,7 +68,7 @@ title: WORKSPACE
 			login: initialLogin,
 			password: initialPassword,
 			accessToken: initialAccessToken,
-			useCookies: false,
+			useCookies: true,
 			themeColor: initialColor,
 			darkMode: initialDarkMode,
 			multipleDownload: true,
