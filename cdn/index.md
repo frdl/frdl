@@ -4,6 +4,7 @@ title: CDN of Frdlweb
 
 # Frdlweb CDN
 
+<div class="container">
 ## NPM Package (Javascript)
 <form action="https://cdn.frdl.io/_redirect.php" method="POST">
  
@@ -23,11 +24,11 @@ title: CDN of Frdlweb
  <option value="browse">Pretty Browse Files</option>
  </select>
 </form>
+</div>
 
 
 
-
-
+<div class="container">
 ## Composer Package (PHP)
 <form action="https://cdn.frdl.io/_redirect.php" method="POST">
   <input type="hidden" name="packageType" value="php-pkg" /> 
@@ -46,11 +47,11 @@ title: CDN of Frdlweb
  <option value="browse" disabled>Pretty Browse Repository</option>
  </select>
 </form>
+</div>
 
 
 
-
-
+<div class="container">
 ## Class File (PHP)
 <form action="https://cdn.frdl.io/_redirect.php" method="POST">
   <input type="hidden" name="packageType" value="php-class" /> 
@@ -69,3 +70,4 @@ title: CDN of Frdlweb
  <option value="browse" disabled>Pretty Highlight File</option>
  </select>
 </form>
+</div>
