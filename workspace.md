@@ -28,9 +28,6 @@ title: WORKSPACE
 		<p id="results"></p>
 
 </main>
-
-
-<!--script src="../js/filePickerWrapper.js"></script-->
 <script>
 	function main() {
 		// get url values
@@ -113,7 +110,6 @@ title: WORKSPACE
 				linkLabel: 'custom link label',
 			})
 		})
-		// events coming from the file picker
 		document.addEventListener('filepicker-unauthorized', (e) => {
 			console.debug('file picker got an unauthorized response')
 			console.debug(e.detail)
@@ -246,7 +242,6 @@ title: WORKSPACE
 	}
 	document.addEventListener('DOMContentLoaded', (event) => {
 		document.getElementById('domainToAuthorize').textContent = window.location.protocol + '//' + window.location.host
-
 import('https://npm.packages.js.api.webfan.de/nextcloud-webdav-filepicker/js/filePickerWrapper.js')
 	.then(() => { main() })
 	
