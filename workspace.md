@@ -2,8 +2,6 @@
 title: WORKSPACE
 ---
 
-# WORKSPACE
-
 
 <style>
 .d-none{
@@ -14,6 +12,7 @@ title: WORKSPACE
 	
 <div>
 <main>
+	<legend>WORKSPACE</legend>
 	<small>
 <input id="url" type="text" placeholder="Cloud Server Address" value="https://frdl.ws/cloudsharing/">
 	<input type="checkbox" onclick="document.getElementById('credentialsForms').classList.toggle('d-none');" /> with optional credentials
@@ -24,22 +23,18 @@ title: WORKSPACE
 		<input id="accessToken" type="password" placeholder="OAuth access token" value="">
 	</span>
 	</small>		
-		<h3>Design</h3>
+		<legend>Design</legend>
 		<label for="color">Main file picker color</label>
 		<input id="color" type="color" value="#0082c9">
 		<br>
 		<label for="darkmode">Dark mode</label>
 		<input id="darkmode" type="checkbox">
-
 		<button id="selectButton">select files</button>
-
 		<button id="linkButton">link files</button>
-
 		<div id="mount_point"></div>
 		<hr>
-		<h3>Results</h3>
+		<legend>Results</legend>
 		<p id="results"></p>
-
 </main>
 <!-- script src="https://npm.packages.js.api.webfan.de/nextcloud-webdav-filepicker@0.0.14/js/filePickerWrapper.js"></script -->
 <script>
