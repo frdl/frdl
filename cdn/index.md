@@ -20,7 +20,7 @@ Fetch source code from public content delivery networks...
  <input type="text" name="packageVersion" placeholder="latest"  value="latest" /> 
  
  <legend>View</legend>
- <select>
+ <select name="plugin">
  <option value="raw" selected>Raw Source Code</option>
  <option value="bundle" disabled>Bundled Package</option>
  <option value="browse">Pretty Browse Files</option>
@@ -46,7 +46,7 @@ Fetch source code from public content delivery networks...
  <input type="text" name="packageVersion" placeholder="latest"  value="latest" /> 
  
  <legend>View</legend>
- <select>
+ <select name="plugin">
  <option value="raw" selected>Raw Source Code</option>
  <option value="bundle">Zipped Package</option>
  <option value="browse" disabled>Pretty Browse Repository</option>
@@ -72,7 +72,7 @@ Fetch source code from public content delivery networks...
  <input type="text" name="packageVersion" placeholder="latest"  value="latest"  readonly /> 
  
  <legend>View</legend>
- <select>
+ <select name="plugin">
  <option value="raw" selected>Raw Source Code</option>
  <option value="bundle" disabled>Package</option>
  <option value="browse" disabled>Pretty Highlight File</option>
