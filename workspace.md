@@ -240,15 +240,17 @@ title: WORKSPACE
 			console.debug('Filepicker manually CLOSED')
 		})
 	}
-	document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', (event) => {
 		document.getElementById('domainToAuthorize').textContent = window.location.protocol + '//' + window.location.host
-	})
+	
 (()=>{
  var s=document.createElement('script');
  s.onload = main;
  s.src='https://npm.packages.js.api.webfan.de/nextcloud-webdav-filepicker/js/filePickerWrapper.js';
  document.head.append(s);	
 })()
+
+})
 </script>
 
 </div>
