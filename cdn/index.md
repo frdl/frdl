@@ -75,7 +75,7 @@ Fetch source code from public content delivery networks...
  <select name="plugin">
  <option value="raw" selected>Raw Source Code</option>
  <option value="bundle" disabled>Package</option>
- <option value="browse" disabled>Pretty Highlight File</option>
+ <option value="browse">Pretty Highlight File</option>
  </select>
  
   <input type="submit" value="Go..." /> 
