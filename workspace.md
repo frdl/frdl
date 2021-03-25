@@ -4,7 +4,9 @@ title: WORKSPACE
 
 # WORKSPACE
 
-	<main>
+
+<div>
+<main>
 		<h1>Nextcloud file picker</h1>
 		<h2>
 			This is an example page importing the file picker wrapper.
@@ -52,10 +54,8 @@ title: WORKSPACE
 		<hr>
 		<h3>Results</h3>
 		<p id="results"></p>
-		<div class="ribbon">
-			<a href="https://github.com/eneiluj/nextcloud-webdav-filepicker" target="_blank">Repository and documentation</a>
-		</div>
-	</main>
+
+</main>
 	<footer style="position: fixed; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.1);">
 		Dev version
 	</footer>
@@ -90,6 +90,7 @@ title: WORKSPACE
 		if (darkmode) {
 			document.getElementById('darkmode').checked = darkmode === '1'
 		}
+
 
 		const initialUrl = document.getElementById('url').value
 		const initialLogin = document.getElementById('login').value
@@ -308,32 +309,4 @@ import('https://npm.packages.js.api.webfan.de/nextcloud-webdav-filepicker/js/fil
 	})
 </script>
 
-<style type="text/css">
-.ribbon {
-	background-color: #0082c9;
-	overflow: hidden;
-	white-space: nowrap;
-	position: fixed;
-	right: -70px;
-	top: 75px;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-	-webkit-box-shadow: 0 0 10px #888;
-	-moz-box-shadow: 0 0 10px #888;
-	box-shadow: 0 0 10px #888;
-}
-.ribbon a {
-	border: 1px solid #faa;
-	color: #fff;
-	display: block;
-	font: bold 100% 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	margin: 1px 0;
-	padding: 10px 50px;
-	text-align: center;
-	text-decoration: none;
-	text-shadow: 0 0 5px #444;
-}
-</style>
+</div>
