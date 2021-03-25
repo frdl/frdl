@@ -28,6 +28,7 @@ title: WORKSPACE
 		<p id="results"></p>
 
 </main>
+<script src="https://npm.packages.js.api.webfan.de/nextcloud-webdav-filepicker/js/filePickerWrapper.js"></script>
 <script>
 	function main() {
 		// get url values
@@ -242,10 +243,12 @@ title: WORKSPACE
 	}
 	document.addEventListener('DOMContentLoaded', (event) => {
 		document.getElementById('domainToAuthorize').textContent = window.location.protocol + '//' + window.location.host
+	/*
 import('https://npm.packages.js.api.webfan.de/nextcloud-webdav-filepicker/js/filePickerWrapper.js')
 	.then(() => { main() })
 	
 	})
+	*/
 </script>
 
 </div>
