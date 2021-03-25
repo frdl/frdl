@@ -3,9 +3,11 @@ title: CDN of Frdlweb
 ---
 
 # Frdlweb CDN
+Fetch source code from public content delivery networks...
 
-<div class="container">
+
 ## NPM Package (Javascript)
+<div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST">
  
  <input type="hidden" name="packageType" value="npm" /> 
@@ -28,8 +30,9 @@ title: CDN of Frdlweb
 
 
 
-<div class="container">
+
 ## Composer Package (PHP)
+<div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST">
   <input type="hidden" name="packageType" value="php-pkg" /> 
  
@@ -51,8 +54,9 @@ title: CDN of Frdlweb
 
 
 
-<div class="container">
+
 ## Class File (PHP)
+<div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST">
   <input type="hidden" name="packageType" value="php-class" /> 
  
