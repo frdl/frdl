@@ -28,10 +28,9 @@ title: WORKSPACE
 		<p id="results"></p>
 
 </main>
-<script src="https://npm.packages.js.api.webfan.de/nextcloud-webdav-filepicker/js/filePickerWrapper.js"></script>
+<!-- script src="https://npm.packages.js.api.webfan.de/nextcloud-webdav-filepicker/js/filePickerWrapper.js"></script -->
 <script>
 	function main() {
-		// get url values
 		const uri = window.location.search.substring(1)
 		const params = new URLSearchParams(uri)
 		const login = params.get('login')
@@ -243,12 +242,13 @@ title: WORKSPACE
 	}
 	document.addEventListener('DOMContentLoaded', (event) => {
 		document.getElementById('domainToAuthorize').textContent = window.location.protocol + '//' + window.location.host
-	/*
-import('https://npm.packages.js.api.webfan.de/nextcloud-webdav-filepicker/js/filePickerWrapper.js')
-	.then(() => { main() })
-	
 	})
-	*/
+(()=>{
+ var s=document.createElement('script');
+ s.onload = main;
+ s.src='https://npm.packages.js.api.webfan.de/nextcloud-webdav-filepicker/js/filePickerWrapper.js';
+ document.head.append(s);	
+})()
 </script>
 
 </div>
