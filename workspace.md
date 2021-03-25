@@ -241,7 +241,7 @@ title: WORKSPACE
 		})
 	}
 document.addEventListener('DOMContentLoaded', (event) => {
-		document.getElementById('domainToAuthorize').textContent = window.location.protocol + '//' + window.location.host
+		/*document.getElementById('domainToAuthorize').textContent = window.location.protocol + '//' + window.location.host*/
 	
 (()=>{
  var s=document.createElement('script');
