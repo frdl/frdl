@@ -59,7 +59,7 @@ title: WORKSPACE
 	<footer style="position: fixed; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.1);">
 		Dev version
 	</footer>
-</body>
+
 <!--script src="../js/filePickerWrapper.js"></script-->
 <script>
 	function main() {
