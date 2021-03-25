@@ -12,7 +12,7 @@ title: WORKSPACE
 	
 <div>
 <main>
-	<legend>WORKSPACE</legend>
+	<legend>WORKSPACE Provider</legend>
 	<small>
 <input id="url" type="text" placeholder="Cloud Server Address" value="https://frdl.ws/cloudsharing/">
 	<input type="checkbox" onclick="document.getElementById('credentialsForms').classList.toggle('d-none');" /> with optional credentials
