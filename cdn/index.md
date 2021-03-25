@@ -8,7 +8,7 @@ Fetch source code from public content delivery networks...
 
 ## NPM Package (Javascript)
 <div class="container">
-<form action="https://cdn.frdl.io/_redirect.php" method="POST">
+<form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
  
  <input type="hidden" name="packageType" value="npm" /> 
  
@@ -35,7 +35,7 @@ Fetch source code from public content delivery networks...
 
 ## Composer Package (PHP)
 <div class="container">
-<form action="https://cdn.frdl.io/_redirect.php" method="POST">
+<form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
   <input type="hidden" name="packageType" value="php-pkg" /> 
  
  <legend>Package Name</legend>
@@ -61,7 +61,7 @@ Fetch source code from public content delivery networks...
 
 ## Class File (PHP)
 <div class="container">
-<form action="https://cdn.frdl.io/_redirect.php" method="POST">
+<form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
   <input type="hidden" name="packageType" value="php-class" /> 
  
  <legend>Class Name</legend>
