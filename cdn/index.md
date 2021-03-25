@@ -25,6 +25,8 @@ Fetch source code from public content delivery networks...
  <option value="bundle" disabled>Bundled Package</option>
  <option value="browse">Pretty Browse Files</option>
  </select>
+ 
+  <input type="submit" value="Go..." /> 
 </form>
 </div>
 
@@ -49,6 +51,8 @@ Fetch source code from public content delivery networks...
  <option value="bundle">Zipped Package</option>
  <option value="browse" disabled>Pretty Browse Repository</option>
  </select>
+ 
+  <input type="submit" value="Go..." /> 
 </form>
 </div>
 
@@ -73,5 +77,7 @@ Fetch source code from public content delivery networks...
  <option value="bundle" disabled>Package</option>
  <option value="browse" disabled>Pretty Highlight File</option>
  </select>
+ 
+  <input type="submit" value="Go..." /> 
 </form>
 </div>
