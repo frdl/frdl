@@ -13,7 +13,7 @@ Fetch source code from public content delivery networks...
  <input type="hidden" name="packageType" value="npm" /> 
  
  <legend>Package Name</legend>
- <input type="text" name="packageName" placeholder="@frdl/frdl"  value="@frdl/frdl"  /> 
+ <input type="text" name="packageName" placeholder="@frdl/frdl"  value="jquery"  /> 
  
  
  <legend>Package Version</legend>
