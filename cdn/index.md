@@ -17,7 +17,7 @@ Fetch source code from public content delivery networks...
  
  
  <legend>Package Version</legend>
- <input type="text" name="packageVersion" placeholder="latest"  value="latest" /> 
+ <input type="text" name="packageVersion" placeholder="latest"  value="" /> 
  
  <legend>View</legend>
  <select name="plugin">
