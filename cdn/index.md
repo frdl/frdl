@@ -12,7 +12,7 @@ Fetch source code from public content delivery networks...
  <input type="hidden" name="packageType" value="webpack" /> 
  
  <legend>Dependencies Package Names</legend>
- <input type="text" name="packageNames" placeholder="path,url"  value="path,url"  /> 
+ <input type="text" name="packageName" placeholder="path,url"  value="path,url"  /> 
  
  
  <legend>Code (main.js)</legend>
