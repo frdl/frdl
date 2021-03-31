@@ -5,6 +5,36 @@ title: CDN of Frdlweb
 # Frdlweb CDN
 Fetch source code from public content delivery networks...
 
+## Webpack Bundle
+<div class="container">
+<form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
+ 
+ <input type="hidden" name="packageType" value="webpack" /> 
+ 
+ <legend>Dependencies Package Names</legend>
+ <input type="text" name="packageNames" placeholder="path,url"  value="path,url"  /> 
+ 
+ 
+ <legend>Code (main.js)</legend>
+ <textarea name="code"></textarea>
+ 
+ <legend>View</legend>
+ <select name="plugin">
+ <option value="code" selected>Bundled Javascript Entry</option>
+ <option value="meta">Meta Data (json)</option>
+ </select>
+ 
+ <legend>API-Endpoint (Method)</legend>
+ <select name="meth">
+ <option value="GET" selected>GET</option>
+ <option value="POST">POST</option>
+ </select>
+ 
+ 
+  <input type="submit" value="Go..." /> 
+</form>
+</div>
+
 
 ## NPM Package ([Javascript](https://www.npmjs.com/~webfan))
 <div class="container">
