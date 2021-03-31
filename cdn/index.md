@@ -29,8 +29,7 @@ Fetch source code from public content delivery networks...
  <option value="GET" selected>GET</option>
  <option value="POST">POST</option>
  </select>
- 
- 
+  
   <input type="submit" value="Go..." /> 
 </form>
 </div>
