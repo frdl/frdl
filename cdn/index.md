@@ -16,7 +16,7 @@ Fetch source code from public content delivery networks...
  
  
  <legend>Code (main.js)</legend>
- <textarea name="code"  placeholder="module.exports=42;"></textarea>
+ <textarea name="code" placeholder="module.exports=42;"></textarea>
  
  <legend>View</legend>
  <select name="plugin">
@@ -25,7 +25,7 @@ Fetch source code from public content delivery networks...
  </select>
  
  <legend>API-Endpoint (Method)</legend>
- <select name="meth">
+ <select name="plugin_method">
  <option value="GET" selected>GET</option>
  <option value="POST">POST</option>
  </select>
