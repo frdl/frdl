@@ -16,7 +16,7 @@ Fetch source code from public content delivery networks...
  
  
  <legend>Code (main.js)</legend>
- <textarea name="code"></textarea>
+ <textarea name="code"  placeholder="module.exports=42;"></textarea>
  
  <legend>View</legend>
  <select name="plugin">
