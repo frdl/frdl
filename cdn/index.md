@@ -5,11 +5,16 @@ title: CDN of Frdlweb
 # Frdlweb CDN
 Fetch source code from public content delivery networks...
 
-## Webpack Bundle
+## Bundle Packages (webfanpack-js/webpack)
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
  
- <input type="hidden" name="packageType" value="webpack" /> 
+  <legend>Packager/Bundler</legend>
+ <select name="packageType">
+ <option value="@frdl/webfanpack-js" selected>@frdl/webfanpack-js</option>
+ <option value="webpack">webpack</option>
+ </select>
+ 
  
  <legend>Dependencies Package Names</legend>
  <input type="text" name="packageName" placeholder="path,url"  value="path,url"  /> 
