@@ -11,8 +11,8 @@ Fetch source code from public content delivery networks...
  
   <legend>Packager/Bundler</legend>
  <select name="packageType">
- <option value="@frdl/webfanpack-js" selected>@frdl/webfanpack-js</option>
- <option value="webpack">webpack</option>
+ <option value="@frdl/webfanpack-js">@frdl/webfanpack-js</option>
+ <option value="webpack" selected>webpack</option>
  </select>
  
  
