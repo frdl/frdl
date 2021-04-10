@@ -11,7 +11,7 @@ Fetch source code from public content delivery networks...
  
   <legend>Packager/Bundler</legend>
  <select name="packageType">
- <option value="@frdl/webfanpack-js">@frdl/webfantized-webfanpack</option>
+ <option value="webfantized-webfanpack">@frdl/webfantized-webfanpack</option>
  <option value="webpack" selected>webfantized-webpack v2.0.0</option>
  <option value="webfantized-webpack">webfantized-webpack dev-master</option>
  </select>
