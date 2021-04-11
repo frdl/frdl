@@ -1,3 +1,4 @@
+[Other CDN options...](./)
 
 
 ## Class File ([PHP](https://frdl.webfan.de/install/?source=*))
