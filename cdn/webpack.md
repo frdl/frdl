@@ -1,9 +1,9 @@
+[Other CDN options...](./)
 
 
+## Bundle Packages (webfanpack-js/webpack - runkit powered)
 
-## Bundle Packages (webfanpack-js/webpack)
-
-Experimental Online Webpack Bundlers
+Experimental Online Webpack Bundlers **(not for production, DEV or BETA stage!)**
 
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
