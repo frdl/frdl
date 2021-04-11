@@ -9,6 +9,17 @@ Fetch source code from public content delivery networks...
 
 ## Asset Link (webfantized-ca-permalink-experiment)
 
+Generate a content addressed permalink for small or medium assets.
+Host and share any contents (small or medium sized) of the type HTML, Javascript, CSS on [our cdn for free](https://frdl.io).
+#### How it works
+`pros`
++ Equal Contents result in tbe same Bucket, Hash, Url, Address
++ NO database or persistent storage is neede, the disk quota for the data is ZERO
++ NO user account binding, everything is published public as per protocol
+`cons`
++ The content size is limited by the maximum request-url length
++ The uris are very long and ugly
+
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
  
@@ -33,6 +44,8 @@ Fetch source code from public content delivery networks...
 
 
 ## NPM Package ([Javascript](https://www.npmjs.com/~webfan))
+
+Fetch source code from public content delivery networks...
 
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
@@ -63,6 +76,8 @@ Fetch source code from public content delivery networks...
 
 
 ## Bundle Packages (webfanpack-js/webpack)
+
+Experimental Online Webpack Bundler
 
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
