@@ -9,3 +9,12 @@ title: CDN of Frdlweb
 + [Online Javascript Bundlers](webpack)
 + [PHP Packages (includes remote autoloading)](php)
 
+
+
+<small>
+
+[API](https://apps.api.frdl.de/)
+
+</small>
+  
+
