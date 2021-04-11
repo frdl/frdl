@@ -16,9 +16,9 @@ Fetch source code from public content delivery networks...
  
  <legend>Type</legend>
  <select name="plugin">
- <option value="js" selected>application/javascript</option>
- <option value="css">text/css/option>
- <option value="html">text/html</option>
+ <option value="js" selected>javascript</option>
+ <option value="css">css/option>
+ <option value="html">html</option>
  </select>
   
  
