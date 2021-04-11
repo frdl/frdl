@@ -13,6 +13,7 @@ Fetch source code from public content delivery networks...
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
  
  <input type="hidden" name="packageType" value="webfantized-ca-permalink-experiment" /> 
+ <input type="hidden" name="packageName" value="*"  /> 
  
  <legend>Type</legend>
  <select name="plugin">
