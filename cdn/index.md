@@ -10,7 +10,7 @@ Fetch source code from public content delivery networks...
 ## Asset Link (webfantized-ca-permalink-experiment)
 
 Generate a content addressed permalink for small or medium assets.
-Host and share any contents (small or medium sized) of the type HTML, Javascript, CSS on [our cdn for free](https://frdl.io).
+Host and share any contents (small or medium sized) of the type HTML, Javascript, CSS on [our cdn for free](https://cdn.frdl.io).
 #### How it works
 `pros`
 + Equal Contents result in tbe same Bucket, Hash, Url, Address
