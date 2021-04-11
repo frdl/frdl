@@ -5,6 +5,57 @@ title: CDN of Frdlweb
 # Frdlweb CDN
 Fetch source code from public content delivery networks...
 
+## Asset Link (webfantized-ca-permalink-experiment)
+<div class="container">
+<form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
+ 
+ <input type="hidden" name="packageType" value="webfantized-ca-permalink-experiment" /> 
+ 
+ <legend>Type</legend>
+ <select name="plugin">
+ <option value="js" selected>application/javascript</option>
+ <option value="css">text/css/option>
+ <option value="html">text/html</option>
+ </select>
+  
+ 
+ <legend>Code/Contents</legend>
+ <textarea name="code" placeholder="window.alert('Example');"></textarea>
+
+  <input type="submit" value="Go..." /> 
+</form>
+</div>
+
+
+
+## NPM Package ([Javascript](https://www.npmjs.com/~webfan))
+<div class="container">
+<form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
+ 
+ <input type="hidden" name="packageType" value="npm" /> 
+ 
+ <legend>Package Name</legend>
+ <input type="text" name="packageName" placeholder="@frdl/frdl"  value="frdl"  /> 
+ 
+ 
+ <legend>Package Version</legend>
+ <input type="text" name="packageVersion" placeholder="latest"  value="latest" /> 
+ 
+ <legend>View</legend>
+ <select name="plugin">
+ <option value="raw">Raw Source Code</option>
+ <option value="bundle" disabled>Bundled Package</option>
+ <option value="browse" selected>Pretty Browse Files</option>
+ </select>
+ 
+  <input type="submit" value="Go..." /> 
+</form>
+</div>
+
+
+
+
+
 ## Bundle Packages (webfanpack-js/webpack)
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
@@ -39,33 +90,6 @@ Fetch source code from public content delivery networks...
   <input type="submit" value="Go..." /> 
 </form>
 </div>
-
-
-## NPM Package ([Javascript](https://www.npmjs.com/~webfan))
-<div class="container">
-<form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
- 
- <input type="hidden" name="packageType" value="npm" /> 
- 
- <legend>Package Name</legend>
- <input type="text" name="packageName" placeholder="@frdl/frdl"  value="frdl"  /> 
- 
- 
- <legend>Package Version</legend>
- <input type="text" name="packageVersion" placeholder="latest"  value="latest" /> 
- 
- <legend>View</legend>
- <select name="plugin">
- <option value="raw">Raw Source Code</option>
- <option value="bundle" disabled>Bundled Package</option>
- <option value="browse" selected>Pretty Browse Files</option>
- </select>
- 
-  <input type="submit" value="Go..." /> 
-</form>
-</div>
-
-
 
 
 
