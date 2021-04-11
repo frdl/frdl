@@ -7,5 +7,5 @@ title: CDN of Frdlweb
 + [Assets-Hosting](asset-blob)
 + [NPM Packages CDN Mashup](npm)
 + [Online Javascript Bundlers](webpack)
-+ PHP Packages (includes remote autoloading)
++ [PHP Packages (includes remote autoloading)](php)
 
