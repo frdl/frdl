@@ -11,10 +11,4 @@ title: CDN of Frdlweb
 
 
 
-<small>
-
 [API](https://apps.api.frdl.de/)
-
-</small>
-  
-
