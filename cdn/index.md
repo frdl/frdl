@@ -2,10 +2,7 @@
 title: CDN of Frdlweb
 ---
 
-
 # Frdlweb CDN
-Fetch source code from public content delivery networks...
-
 
 ## Asset Link (webfantized-ca-permalink-experiment)
 
