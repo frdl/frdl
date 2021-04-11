@@ -2,10 +2,13 @@
 title: CDN of Frdlweb
 ---
 
+
 # Frdlweb CDN
 Fetch source code from public content delivery networks...
 
+
 ## Asset Link (webfantized-ca-permalink-experiment)
+
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
  
@@ -29,6 +32,7 @@ Fetch source code from public content delivery networks...
 
 
 ## NPM Package ([Javascript](https://www.npmjs.com/~webfan))
+
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
  
@@ -56,7 +60,9 @@ Fetch source code from public content delivery networks...
 
 
 
+
 ## Bundle Packages (webfanpack-js/webpack)
+
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
  
@@ -94,7 +100,9 @@ Fetch source code from public content delivery networks...
 
 
 
+
 ## Class File ([PHP](https://frdl.webfan.de/install/?source=*))
+
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
   <input type="hidden" name="packageType" value="php-class" /> 
@@ -119,7 +127,9 @@ Fetch source code from public content delivery networks...
 
 
 
+
 ## Composer Package ([PHP](https://packages.frdl.de))
+
 *This look up is marked as @ToDo...*
 <div class="container">
 <form disabled action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
@@ -142,6 +152,7 @@ Fetch source code from public content delivery networks...
   <input type="submit" value="Go..."  disabled /> 
 </form>
 </div>
+
 
 
 
