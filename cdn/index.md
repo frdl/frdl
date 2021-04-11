@@ -13,9 +13,11 @@ Host and share any contents (small or medium sized) of the type HTML, Javascript
 + Equal Contents result in the same Bucket, Hash, Url, Address
 + NO database or persistent storage is neede, the disk quota for the data is ZERO
 + NO user account binding, everything is published public as per protocol
++ 
 `cons`
 + The content size is limited by the maximum request-url length
 + The uris are very long and ugly
++ 
 
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
