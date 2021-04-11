@@ -13,7 +13,7 @@ Generate a content addressed permalink for small or medium assets.
 Host and share any contents (small or medium sized) of the type HTML, Javascript, CSS on [our cdn for free](https://cdn.frdl.io).
 #### How it works
 `pros`
-+ Equal Contents result in tbe same Bucket, Hash, Url, Address
++ Equal Contents result in the same Bucket, Hash, Url, Address
 + NO database or persistent storage is neede, the disk quota for the data is ZERO
 + NO user account binding, everything is published public as per protocol
 `cons`
