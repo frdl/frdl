@@ -1,3 +1,5 @@
+[Other CDN options...](./)
+
 ## Asset Link (webfantized-ca-permalink-experiment)
 
 Generate a content addressed permalink for small or medium assets.
