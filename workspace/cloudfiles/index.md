@@ -243,6 +243,8 @@ title: WORKSPACE
 		})
 		document.addEventListener('filepicker-closed', (e) => {
 			console.debug('Filepicker CLOSED')
+	
+	             
 		})
 		document.addEventListener('filepicker-manually-closed', (e) => {
 			console.debug('Filepicker manually CLOSED')
