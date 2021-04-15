@@ -12,7 +12,7 @@ Experimental Online Webpack Bundlers **(not for production, DEV or BETA stage!)*
  <select name="packageType">
  <option value="webfantized-webfanpack" disabled>@frdl/webfantized-webfanpack</option>
  <option value="webpack" selected>webfantized-webpack v2.0.0</option>
- <option value="webfantized-webpack" disabled>webfantized-webpack dev-master</option>
+ <option value="webfantized-webpack">webfantized-webpack dev-master</option>
  </select>
  
  
