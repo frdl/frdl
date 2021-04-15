@@ -14,7 +14,7 @@ title: WORKSPACE
 <main>
 	<legend>WORKSPACE Provider</legend>
 	<small>
-<input id="url" type="text" placeholder="Cloud Server Address" value="https://frdl.ws/cloudsharing/">
+<input id="url" type="text" placeholder="Cloud Server Address" value="https://webfan3.de/">
 	<input type="checkbox" onclick="document.getElementById('credentialsForms').classList.toggle('d-none');" /> with optional credentials
 	<span id="credentialsForms" class="d-none">
 		<br />
