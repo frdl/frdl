@@ -16,7 +16,7 @@ Host and share any contents (small or medium sized) of the type HTML, Javascript
 + The content size is limited by the maximum request-url length
 + The uris are very long and ugly
 
-
+##### Generate Asset Link
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
  
@@ -32,7 +32,7 @@ Host and share any contents (small or medium sized) of the type HTML, Javascript
   
  
  <legend>Code/Contents</legend>
- <textarea name="code" placeholder="window.alert('Example');"></textarea>
+ <textarea name="code" placeholder="window.alert('Example');" width="width:100%;min-height:350px;"></textarea>
 
   <input type="submit" value="Go..." /> 
 </form>
