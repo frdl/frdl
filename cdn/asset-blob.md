@@ -24,13 +24,19 @@ Host and share any contents (small or medium sized) of the type HTML, Javascript
  <input type="hidden" name="packageName" value="*"  /> 
  
  <legend>Type</legend>
- <select name="plugin">
+ <select name="plugin" onchange="var v=this.options[this.selctedIndex].value, e = document.getElementById('callback'); if(v==='jsonp'){e.style.display='inline-block';}else{e.style.display='none';}">
  <option value="js" selected>javascript</option>
  <option value="css">css</option>
  <option value="html">html</option>
+ <option value="json">json</option>
+ <option value="jsonp">jsonp</option>
  </select>
-  
  
+ <p id="callback">
+   <legend>Callback</legend>
+  <input type="text" style="display:none;" name="plugin_method" value="callback"  /> 
+  </p>
+  
  <legend>Code/Contents</legend>
  <textarea name="code" placeholder="window.alert('Example');" width="width:100%;min-height:350px;"></textarea>
 
