@@ -125,5 +125,5 @@ Mainly:
 <a name="testresult"></a><pre ng-show="testResult" ng-bind-html="testResultJSON"></pre>
 	</div>						 
 </div>
-<script type="text/javascript" src="https://frdl.webfan.de/app/js/frdlweb.js"></script>	
+<script type="text/javascript" src="https://cdn.frdl.io/@frdl/components/frdl-plugs/frdlweb-legacy.js"></script>	
 <dsgvo-adsense></dsgvo-adsense>	
