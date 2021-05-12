@@ -182,43 +182,6 @@ Mainly:
   </tr>
 </table>
 	
- <!--<input type="button" id="send-query" value="Send query">-->
-
-	
-<!--<pre id="output"></pre>
-
- Here's an example script where we use dohjs 
-<script>
-//  document.addEventListener('DOMContentLoaded', function (e) {
-    document.getElementById('send-query').addEventListener('click', function (e) {
-	
-
-
-   require.main.dnsOverHttps.then(function(dnsOverHttps){
-
-      const qname = document.getElementById('qname').value || '.';
-      const qtype = document.getElementById('qtype').value || 'AAAA';
-   //   const method = document.getElementById('method').value || 'POST';
-      const url = document.getElementById('url').value;
-      if (!url) {
-        alert('You forgot to provide a URL!');
-        return;
-      }
-      var resolver = new dnsOverHttps.DohResolver(url);
-     var r = resolver.query(qname, qtype)
-        .then(response => {
-          document.getElementById('output').innerHTML = JSON.stringify(response, null, 4);
-        })
-        .catch(console.error);
-
-		});
-    });
- // });
-</script>
-
-</div>
-
-	-->
 
 	
 	
