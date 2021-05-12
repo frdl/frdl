@@ -38,7 +38,7 @@ Host and share any contents (small or medium sized) of the type HTML, Javascript
   </p>
   
  <legend>Code/Contents</legend>
- <textarea name="code" placeholder="window.alert('Example');" width="width:100%;min-height:350px;"></textarea>
+ <textarea name="code" placeholder="window.alert('Example');" style="width:95%;height:364px;"></textarea>
 
   <input type="submit" value="Go..." /> 
 </form>
