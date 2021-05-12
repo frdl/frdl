@@ -25,11 +25,11 @@ Host and share any contents (small or medium sized) of the type HTML, Javascript
  
  <legend>Type</legend>
  <select name="plugin" onchange="var v=this.options[this.selctedIndex].value, e = document.getElementById('callback'); if(v==='jsonp'){e.style.display='inline-block';}else{e.style.display='none';}">
- <option value="js" selected>javascript</option>
- <option value="css">css</option>
- <option value="html">html</option>
- <option value="json">json</option>
- <option value="jsonp">jsonp</option>
+ <option value="js" selected>application/javascript</option>
+ <option value="css">text/css</option>
+ <option value="html">text/html</option>
+ <option value="json">application/json</option>
+ <option value="jsonp">application/jsonp</option>
  </select>
  
  <p id="callback">
