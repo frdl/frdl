@@ -24,14 +24,14 @@ Experimental Online Webpack Bundlers **(not for production, DEV or BETA stage!)*
  
  <legend>View</legend>
  <select name="plugin">
- <option value="code" selected>Bundled Javascript Entry</option>
- <option value="meta">Meta Data (json)</option>
+ <option value="code">Bundled Javascript Entry</option>
+ <option value="meta" selected>Meta Data (json)</option>
  </select>
  
  <legend>API-Endpoint (Method)</legend>
  <select name="plugin_method">
- <option value="GET" selected>GET</option>
- <option value="POST">POST</option>
+ <option value="GET">GET</option>
+ <option value="POST" selected>POST</option>
  </select>
   
   <input type="submit" value="Go..." /> 
