@@ -125,6 +125,6 @@ Mainly:
 	</div>						 
 </div>	
 
-<a name="testresult"></a><pre>{{ testResult | json }}</pre>
+<a name="testresult"></a><pre ng-show="testResult" ng-bind-html="testResult">{{ testResult | json }}</pre>
 <script type="text/javascript" src="https://frdl.webfan.de/app/js/frdlweb.js"></script>	
 <dsgvo-adsense></dsgvo-adsense>	
