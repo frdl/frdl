@@ -32,41 +32,6 @@ title: DNS over HTTPS
 </div>	
 	
 	
-	
-	
-<div class="aligncenter">	
-
-		
-<div class="d-rel-inline-block f-top" ui-view="topView">	                 		
-	</div>	
-	
-	
-	
-<div class="centered">		
-
-
-
-	
-<div class="content">		
-	
-<div class="d-rel-inline-block f-top" ui-view="startView">	                 	
-	</div>							
-
-
-
-<div class="d-rel-inline-block f-left" ui-view="leftView">	
-  		
-		  		      
-		  			
-	
-	
-        	
- 	
-</div>	
-
-
-
-
 				 
 <div class="d-rel-inline-block f-center content"  ng-controller="buildResolverUrlCtrl">	                 	
         
@@ -191,7 +156,7 @@ Mainly:
 	</div>				 
 				 
 				 
-</div><!--  class="content" -->	
+</div>
 
 
 
@@ -200,49 +165,10 @@ Mainly:
 
 
 	
-<div class="d-rel-inline-block f-right" ui-view="rightView">	
-	        		  		      
-		  		
-	
-        	
-	 </div>	
 
-
-
-
-
-
-</div><!--  class="centered" -->	
-
-				 
-				 
-				 
 	
 
 		
 	
-<div class="d-block f-bottom footer" ui-view="bottomView">				
-	
-	<noscript><error>You MUST enable javascript in your browser to use this site!</error></noscript>	
-		      
-	     		     
-		  		      
-		  		
-		
-        	
-	
-	
-		
-</div>	
-		
-		
-		
-		
-	
-
-</div><!--  class="aligncenter" -->	
-
-</div><!--  first div -->	
-
 	
 <script type="text/javascript" src="https://frdl.webfan.de/app/js/frdlweb.js"></script>	
