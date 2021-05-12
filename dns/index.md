@@ -13,26 +13,16 @@ title: DNS over HTTPS
 	<span frdl-id="mainProgressBar" ng-bind="progressHint" style="left:0px;top:0px;position:fixed;"></span>
 	<uib-progressbar frdl-id="mainProgressBar" animate="true" value="progressbarValue" max="100" type="success"></uib-progressbar>     
 </div>	
-
-
 		
-<div class="d-block f-top" ui-view="topBarView">	
-	         					 
-		           
-	<div style="position:fixed;float:top;padding:4px;padding-top:2px;margin:12px;z-Index:999;top:1px;left:1px;" ng-cloak>
-	
+<div class="d-block f-top" ui-view="topBarView">		           
+	<div style="position:fixed;float:top;padding:4px;padding-top:2px;margin:12px;z-Index:999;top:1px;left:1px;" ng-cloak>	
 	  <a href="https://frdl.de" class="btn btn-primary">Frdlweb</a>
 	  <a href="https://apps.api.frdl.de/developer/" class="btn btn-primary">Developer</a>
 	  <a href="https://apps.api.frdl.de" class="btn btn-primary">API</a>
 	  <a href="https://registry.frdl.de/?goto=oidplus%3Aresources%24About%2FDatenschutzerklaerung.html" class="btn-sm btn-primary">Privacy policy&nbsp;Datenschutzerkl&auml;rung</a>
 	  <a href="https://registry.frdl.de/?goto=oidplus%3Aresources%24About%2FImpressum.html" class="btn-sm btn-primary">Imprint</a>
-	</div>
-		  				
-        	
-</div>	
-	
-	
-				 
+	</div>        	
+</div>					 
 <div class="d-rel-inline-block f-center content"  ng-controller="buildResolverUrlCtrl">	                 	
         
 <h1>Frdlweb DNS/DNS Over HTTPS</h1>
@@ -70,17 +60,9 @@ Mainly:
 	</li>
 	<li>...<i>more info coming soon...</i></li>
 </ul>
-		
-	
-	
-	
-	
-	
 	<a name="builder"></a>
 	<h2>Customize your own <span style="color:green;">FREE</span> DNS Over HTTPS Resolver Service:</h2>
-
 <table style="width:100%;">
-
   <thead ng-repeat="(hostName, records) in MyDNS">
 	 <tr> 
       <td colspan="2">
@@ -104,30 +86,18 @@ Mainly:
 	  
 		<button class="btn-sm btn-danger" ng-click="removeRecord(hostName, $index)">X</button>
 	  </td>	  
-  </tr>
-	  
-	  
-  </thead>
-
-	  
+  </tr>	  
+  </thead>	  
 	<tr> 
-    <td colspan="2"><h3>Resolver-URL:</h3></td>
-    
-  </tr>
-	
-  <tr>
-   
-    <td colspan="2">
-	
-		<input type="text" readonly onclick="this.select()" ng-model="resolverUrl" style="width:75%;">
-	  
-	   
+    <td colspan="2"><h3>Resolver-URL:</h3></td>    
+  </tr>	
+  <tr>   
+    <td colspan="2">	
+		<input type="text" readonly onclick="this.select()" ng-model="resolverUrl" style="width:75%;">	   
 	  </td>
-  </tr>
-	
+  </tr>	
   <tr> 
-    <td colspan="2"><h3>Test your custom DNS:</h3></td>
-    
+    <td colspan="2"><h3>Test your custom DNS:</h3></td>    
   </tr>
   <tr>
     <td>Query Host/Domain</td>
@@ -145,30 +115,12 @@ Mainly:
     <td colspan="2"><a name="testresult"></a><pre>{{ testResult | json }}</pre></td>
     
   </tr>
-</table>
-	
+</table>	
+<dsgvo-adsense></dsgvo-adsense>	
 
-	
-	
-<dsgvo-adsense></dsgvo-adsense>
-
-	
-	</div>				 
-				 
-				 
-</div>
+<a name="testresult"></a><pre>{{ testResult | json }}</pre>
+	</div>						 
+</div>	
 
 
-
-
-
-
-
-	
-
-	
-
-		
-	
-	
 <script type="text/javascript" src="https://frdl.webfan.de/app/js/frdlweb.js"></script>	
