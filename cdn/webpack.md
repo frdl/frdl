@@ -20,7 +20,7 @@ Experimental Online Webpack Bundlers **(not for production, DEV or BETA stage!)*
  
  
  <legend>Code (main.js)</legend>
- <textarea name="code" placeholder="module.exports=42;"></textarea>
+ <textarea name="code" placeholder="module.exports=42;" style="width:95%;height:364px;"></textarea>
  
  <legend>View</legend>
  <select name="plugin">
