@@ -111,11 +111,16 @@ Mainly:
     <td colspan="2"><button ng-click="clickTestLink()">Send the Test-Request</button></td>
     
   </tr>
-
+  <tfoot>
+  <tr> 
+    <td colspan="2"><a name="testresult"></a><pre>{{ testResult | json }}</pre></td>
+    
+  </tr>
+  </tfoot>
 </table>	
 
 
-<a name="testresult"></a><pre>{{ testResult | json }}</pre>
+
 	</div>						 
 </div>	
 
