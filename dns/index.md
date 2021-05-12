@@ -23,7 +23,7 @@ title: DNS over HTTPS
 	  <a href="https://registry.frdl.de/?goto=oidplus%3Aresources%24About%2FImpressum.html" class="btn-sm btn-primary">Imprint</a>
 	</div>        	
 </div>					 
-<div class="d-rel-inline-block f-center content"  ng-controller="buildResolverUrlCtrl">	                 	
+<div class="d-rel-inline-block f-center content" ng-controller="buildResolverUrlCtrl">	                 	
         
 <h1>Frdlweb DNS/DNS Over HTTPS</h1>
 	<p style="color:red;">This service is in BETA-Status, do NOT use in productional environments!</p>
@@ -62,7 +62,7 @@ Mainly:
 </ul>
 	<a name="builder"></a>
 	<h2>Customize your own <span style="color:green;">FREE</span> DNS Over HTTPS Resolver Service:</h2>
-<table style="width:100%;">
+<table style="width:99%%;">
   <thead ng-repeat="(hostName, records) in MyDNS">
 	 <tr> 
       <td colspan="2">
@@ -111,12 +111,9 @@ Mainly:
     <td colspan="2"><button ng-click="clickTestLink()">Send the Test-Request</button></td>
     
   </tr>
-  <tr ng-show="testResult"> 
-    <td colspan="2"><a name="testresult"></a><pre>{{ testResult | json }}</pre></td>
-    
-  </tr>
+
 </table>	
-<dsgvo-adsense></dsgvo-adsense>	
+
 
 <a name="testresult"></a><pre>{{ testResult | json }}</pre>
 	</div>						 
@@ -124,3 +121,4 @@ Mainly:
 
 
 <script type="text/javascript" src="https://frdl.webfan.de/app/js/frdlweb.js"></script>	
+<dsgvo-adsense></dsgvo-adsense>	
