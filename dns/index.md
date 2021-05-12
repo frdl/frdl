@@ -4,7 +4,7 @@ title: DNS over HTTPS
 
 # Your FREE DNS/DNS Over HTTPS server
 
-<div oc-lazy-load="['https://dns.api.webfan.de/dns-api.js', 'ui-notification', 'frdl-ui-progressbar']">	
+<div oc-lazy-load="['api.helper.dns-over-https', 'ui-notification', 'frdl-ui-progressbar']">	
 	<frdl-progressbar></frdl-progressbar>	
 	 
 
