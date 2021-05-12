@@ -101,9 +101,11 @@ Mainly:
   
   
   <table style="width:99%;">
+	 <thead>	
   <tr> 
     <td colspan="2"><h3>Test your custom DNS:</h3></td>    
   </tr>
+	 </thead>	
   <tr>
     <td>Query Host/Domain</td>
     <td><input type="text" id="qname" ng-model="testRequest.qname"></td>
@@ -117,19 +119,12 @@ Mainly:
   <tr> 
     <td colspan="2"><button ng-click="clickTestLink()">Send the Test-Request</button></td>
   </tr>
-  
-  <tr> 
-    <td colspan="2"><a name="testresult"></a><pre>{{ testResult | json }}</pre></td>
-    
-  </tr>
+
   </tfoot>
 </table>	
-
-
-
 	</div>						 
 </div>	
 
-
+<a name="testresult"></a><pre>{{ testResult | json }}</pre>
 <script type="text/javascript" src="https://frdl.webfan.de/app/js/frdlweb.js"></script>	
 <dsgvo-adsense></dsgvo-adsense>	
