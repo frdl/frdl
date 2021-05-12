@@ -62,7 +62,7 @@ Mainly:
 </ul>
 	<a name="builder"></a>
 	<h2>Customize your own <span style="color:green;">FREE</span> DNS Over HTTPS Resolver Service:</h2>
-<table style="width:99%%;">
+<table style="width:99%;">
   <thead ng-repeat="(hostName, records) in MyDNS">
 	 <tr> 
       <td colspan="2">
@@ -82,20 +82,25 @@ Mainly:
 	  </td>
     <td>
 		value:<input type="text" ng-model="MyDNS
-[hostName][$index][1]">
-	  
+[hostName][$index][1]">	  
 		<button class="btn-sm btn-danger" ng-click="removeRecord(hostName, $index)">X</button>
 	  </td>	  
   </tr>	  
-  </thead>	  
+  </thead>	
+  <tbody>	
 	<tr> 
     <td colspan="2"><h3>Resolver-URL:</h3></td>    
-  </tr>	
+  </tr>	  
   <tr>   
     <td colspan="2">	
 		<input type="text" readonly onclick="this.select()" ng-model="resolverUrl" style="width:75%;">	   
 	  </td>
-  </tr>	
+  </tr>	    
+    </tbody>	    
+  </table>
+  
+  
+  <table style="width:99%;">
   <tr> 
     <td colspan="2"><h3>Test your custom DNS:</h3></td>    
   </tr>
@@ -107,11 +112,12 @@ Mainly:
     <td>Query type</td>
     <td><input type="text" id="qtype" ng-model="testRequest.qtype"></td>
   </tr>
+	
+  <tfoot>
   <tr> 
     <td colspan="2"><button ng-click="clickTestLink()">Send the Test-Request</button></td>
-    
   </tr>
-  <tfoot>
+  
   <tr> 
     <td colspan="2"><a name="testresult"></a><pre>{{ testResult | json }}</pre></td>
     
