@@ -23,7 +23,7 @@ title: DNS over HTTPS
 	  <a href="https://registry.frdl.de/?goto=oidplus%3Aresources%24About%2FImpressum.html" class="btn-sm btn-primary">Imprint</a>
 	</div>        	
 </div>					 
-<div class="d-rel-inline-block f-center content" ng-controller="buildResolverUrlCtrl">	                 	
+<div ng-controller="buildResolverUrlCtrl">	                 	
         
 <h1>Frdlweb DNS/DNS Over HTTPS</h1>
 	<p style="color:red;">This service is in BETA-Status, do NOT use in productional environments!</p>
