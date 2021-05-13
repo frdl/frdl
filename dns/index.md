@@ -5,7 +5,9 @@ title: DNS over HTTPS
 # Your FREE Own Custom DNS Over HTTPS Server
 
 <div oc-lazy-load="['https://cdn.frdl.io/@frdl/components/angularjs/api.helper.dns-over-https.js']">					 
-<div frdl-api-helper-dns-custom="https://dns.api.webfan.de/dns-query">Loading...
+<div frdl-api-helper-dns-custom="https://dns.api.webfan.de/dns-query"><img src="https://cdn.frdl.io/@frdl/webfantized-friendly-assets/img/loading.gif" style="border:none;" />
+	<span>Loading DNS-API-Helper Widget...</span>
+	<div ng-cloak>
 <h2>What is this?</h2>
 <p>	
  This is an internal/private DNS service providing a <a onclick="location.hash='builder';">user-customizable</a> <a href="https://de.wikipedia.org/wiki/DNS_over_HTTPS" target="_blank">DNS over HTTPS</a> look-up.	
@@ -40,7 +42,7 @@ Mainly:
       <td colspan="2">
 		  <legend>
 		  <span ng-bind="hostName" style="display:inline;">{{hostName}}</span> 
-            <input style="max-width:84px;" ng-change="changeZone(this.value, records, hostName, false )" type="text" placeholder="{{hostName}}">
+            <input style="max-width:84px;" ng-blur="changeZone(this.value, records, hostName, false )" type="text" placeholder="{{hostName}}">
 		    <button class="btn-sm btn-danger" ng-click="removeRecord(hostName)">X</button>			  
 		  </legend>
 		 </td>
@@ -95,7 +97,7 @@ Mainly:
 </table>	
 <a name="testresult"></a><pre ng-show="testResult" ng-bind-html="testResultJSON"></pre>
 
-
+</div>	
 </div>	
 </div>
 
