@@ -23,12 +23,16 @@ Mainly:
 <h2>How to use?</h2>	
 <ul>	<li>DNS Servers:
 		<ul>
-			<li><a onclick="location.hash='builder';" style="color:red;font-style:bold;">Build Your Custom DNS Server: <span ng-bind="resolverUrl"></span></a></li>
+			<li><button onclick="location.hash='builder';" class="btn-sm btn-success">Build Your Custom DNS Server...</button></li>
+			<li><a href="javascript:;" onclick="$('#list.dns.frdl.de').removeClass('d-none');">dns.frdl.de...</a>
+				<ul id="list.dns.frdl.de" class="d-none">
 			<li>https://dns.api.webfan.de/dns-query</li>
 			<li>https://dns.frdl.de/dns-query</li>
 			<li>https://blue.dns.frdl.de/dns-query</li>
 			<li>https://green.dns.frdl.de/dns-query</li>			
 			<li>...<i>Internal DNS-Protocol servers...</i></li>
+				</ul>	
+			</li>
 		</ul>
 	</li>
 		<li><a href="https://support.mozilla.org/de/kb/firefox-dns-über-https#" target="blank">DNS über HTTPS in Firefox</a> 
