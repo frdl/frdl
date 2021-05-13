@@ -4,7 +4,8 @@ title: DNS over HTTPS
 
 # Custom DNS Over HTTPS Resolver
 On this page you can generate your <sup class="language-plaintext badge badge-success">FREE</sup> own Custom DNS Over HTTPS Resolver Server-Url.
-				 
+
+<div oc-lazy-load="['https://cdn.frdl.io/@frdl/components/angularjs/api.helper.dns-over-https.js']">
 <div frdl-api-helper-dns-custom="https://dns.api.webfan.de/dns-query"><img src="https://cdn.frdl.io/@frdl/webfantized-friendly-assets/img/loading.gif" style="border:none;" />
 	<span>Loading DNS-API-Helper Widget...</span>
 	<div ng-cloak>
@@ -101,6 +102,7 @@ Mainly:
 </table>	
 <a name="testresult"></a><pre ng-show="testResult" ng-bind-html="testResultJSON"></pre>
 
+</div>	
 </div>	
 </div>	
 
