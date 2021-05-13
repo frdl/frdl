@@ -2,7 +2,9 @@
 title: DNS over HTTPS
 ---
 
-# Your FREE Own Custom DNS Over HTTPS Server
+# Custom DNS Over HTTPS Resolver
+Your FREE Own Custom DNS Over HTTPS Server
+
 
 <div oc-lazy-load="['https://cdn.frdl.io/@frdl/components/angularjs/api.helper.dns-over-https.js']">					 
 <div frdl-api-helper-dns-custom="https://dns.api.webfan.de/dns-query"><img src="https://cdn.frdl.io/@frdl/webfantized-friendly-assets/img/loading.gif" style="border:none;" />
