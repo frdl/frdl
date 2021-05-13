@@ -240,20 +240,19 @@ title: WORKSPACE
 					console.debug(reader.error)
 				}
 			})
-		})
-		document.addEventListener('filepicker-closed', (e) => {
-			console.debug('Filepicker CLOSED')
-	
-	             
-		})
+		});
 		document.addEventListener('filepicker-manually-closed', (e) => {
-			console.debug('Filepicker manually CLOSED')
-		})
+			console.debug('Filepicker manually CLOSED');
+		});
+		document.addEventListener('filepicker-closed', (e) => {
+			console.debug('Filepicker CLOSED');		             
+		});		
 	}
 document.addEventListener('DOMContentLoaded', (event) => {
 		/*document.getElementById('domainToAuthorize').textContent = window.location.protocol + '//' + window.location.host*/
 	
 (()=>{
+  document.getElementById('domainToAuthorize').textContent = window.location.protocol + '//' + window.location.host;
  var s=document.createElement('script');
  s.onload = main;
  s.src='https://cdn.frdl.io/nextcloud-webdav-filepicker@0.0.14/js/filePickerWrapper.js';
