@@ -252,7 +252,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 		/*document.getElementById('domainToAuthorize').textContent = window.location.protocol + '//' + window.location.host*/
 	
 (()=>{
-  document.getElementById('domainToAuthorize').textContent = window.location.protocol + '//' + window.location.host;
+//  document.getElementById('domainToAuthorize').textContent = window.location.protocol + '//' + window.location.host;
  var s=document.createElement('script');
  s.onload = main;
  s.src='https://cdn.frdl.io/nextcloud-webdav-filepicker@0.0.14/js/filePickerWrapper.js';
