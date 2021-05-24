@@ -4,10 +4,11 @@ title: PHP Psr4 from remote CDN
 
 [Other CDN options...](./)
 
-
-## Class File ([PHP](https://frdl.webfan.de/install/?source=*))
+# PHP Psr4 from remote CDN
 
 To use the *php CDN* in a project, you can use [the package `frdl/remote-psr4`](https://github.com/frdl/remote-psr4) and autoload php classes on demand from one or more remote servers. Further you can map namespaces to remote-folders, etc... .
+
+#### Look-Up Class File ([PHP](https://frdl.webfan.de/install/?source=*))
 
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
