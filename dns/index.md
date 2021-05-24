@@ -37,7 +37,7 @@ Mainly:
 		</ul>
 	</li>
 		<li><a href="https://support.mozilla.org/de/kb/firefox-dns-über-https#" target="blank">DNS über HTTPS in Firefox</a> 
-	<img src="https://frdl.ws/cloudsharing/s/B7QSP6572EdQTYf/preview" style="max-width:364px;width:auto;height:auto;" /></li>
+	<img src="https://cdn.frdl.io/@frdl/screenshots/doh-ff.png" style="max-width:364px;width:auto;height:auto;" /></li>
 </ul>
 	<a name="builder"></a>
 	<h2>Customize your own <span style="color:green;">FREE</span> DNS Over HTTPS Resolver Service:</h2>
