@@ -1,3 +1,7 @@
+---
+title: NPM CDN Mirror Compilation
+---
+
 [Other CDN options...](./)
 
 ## NPM Package ([Javascript](https://www.npmjs.com/~webfan))
