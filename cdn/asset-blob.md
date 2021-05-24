@@ -1,3 +1,7 @@
+---
+title: Free headless assets CDN
+---
+
 [Other CDN options...](./)
 
 ## Asset Link (webfantized-ca-permalink-experiment)
