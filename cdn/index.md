@@ -8,7 +8,7 @@ Depending on the intent, file-, or mimetype, you can use several CDN opportuniti
 
 + [Assets-Hosting](asset-blob) <sup class="language-plaintext badge badge-success">FREE</sup>
 + [NPM Packages CDN Mashup](npm)
-+ [Online Javascript Bundlers](webpack/webfanpack) <sup class="language-plaintext badge badge-warning">beta</sup>
++ [Online Javascript Bundlers (webpack/webfanpack)](webpack) <sup class="language-plaintext badge badge-warning">beta</sup>
 + [PHP Packages (includes remote autoloading)](php)
 
 ...or...
