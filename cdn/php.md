@@ -3,6 +3,8 @@
 
 ## Class File ([PHP](https://frdl.webfan.de/install/?source=*))
 
+To use the *php CDN* in a project, you can use [the package `frdl/remote-psr4`](https://github.com/frdl/remote-psr4) and autoload php classes on demand and from remote.
+
 <div class="container">
 <form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
   <input type="hidden" name="packageType" value="php-class" /> 
