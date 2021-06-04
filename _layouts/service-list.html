@@ -3,7 +3,12 @@
   <h1><%= data.type %></h1>
   <% data[data.type].forEach(function(service) { %>
     <h2>
-      <a href="<%= service.id %>"><%= service.title %></a>
+      <a href="<%= service.permalink %>">
+        <%= service.title %>
+              <% if(service.id) { %>
+              - #<%= service.id %>
+              <% } %>
+         </a>
     </h2>
     <% if(service.type) { %>
       <p><a href="<%= service.type %>"><%= service.type %></a></p>
