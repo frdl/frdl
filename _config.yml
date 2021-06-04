@@ -13,7 +13,7 @@ defaults:
   -
     scope:
       path: "/" # an empty string here means all files in the project      
-      type: "page"
+      type: "frdl"
     values:
       layout: "default"
       sitemap: true
