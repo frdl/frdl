@@ -1,0 +1,26 @@
+  
+<!-- Service Template -->
+<article class="service fade-in">
+  <h1 class="service-title">
+    <%= data.title %> - <%= data.id %>
+  </h1>
+  <% if(data.endpoints) { %>
+  <% data.endpoints.forEach(function(api) { %>
+        <% if(api) { %>
+          <a href="#/<%= api.type %>?tag=<%= api.type %>" class="service-tag"><%= api.type %></a>
+        <% } %>
+      <% }) %>
+  <% } %>
+  <div class="service-tags">
+    <% if(data.tags) { %>
+      <% data.tags.forEach(function(tag) { %>
+        <% if(tag) { %>
+          <a href="#/?tag=<%= tag %>" class="item-tag"><%= tag %></a>
+        <% } %>
+      <% }) %>
+    <% } %>
+  </div>
+  <div class="post-content">
+    <%= data.body %>
+  </div>
+</article>
