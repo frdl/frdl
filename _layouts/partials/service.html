@@ -4,12 +4,15 @@
   <h1 class="service-title">
     <%= data.title %> - <%= data.id %>
   </h1>
+         <% if(data.type) { %>
+       <a href="#/<%= data.typ %>" class="service-type"><%= data.type %></a>
+        <% } %>
   <% if(data.endpoints) { %>
   <% data.endpoints.forEach(function(api) { %>
         <% if(api) { %>
             <% if(api.title) { %>
               <legend> <%= api.title %> </legend>
-                 <a href="#/<%= api.type %>?tag=<%= api.type %>" class="service-type"><%= api.type %></a>
+                 <a href="#/?tag=<%= api.type %>" class="service-type"><%= api.type %></a>
            <% } %>  
            <% if(api.info) { %>
               <%= api.info %>
