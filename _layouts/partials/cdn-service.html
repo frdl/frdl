@@ -7,7 +7,25 @@
   <% if(data.endpoints) { %>
   <% data.endpoints.forEach(function(api) { %>
         <% if(api) { %>
-          <a href="#/<%= api.type %>?tag=<%= api.type %>" class="service-tag"><%= api.type %></a>
+            <% if(api.title) { %>
+              <legend> <%= api.title %> </legend>
+                 <a href="#/<%= api.type %>?tag=<%= api.type %>" class="service-type"><%= api.type %></a>
+           <% } %>  
+           <% if(api.info) { %>
+              <%= api.info %>
+           <% } %>  
+                    
+     <% if(api.links) { %>
+       <u>
+      <% api.links.forEach(function(link) { %>
+        <% if(link) { %>
+          <li><a href="<%= link.href %>" class="api-link"><%= link.text %></a></li>
+        <% } %>
+      <% }) %>
+       </u>
+    <% } %>
+      
+      
         <% } %>
       <% }) %>
   <% } %>
@@ -20,7 +38,7 @@
       <% }) %>
     <% } %>
   </div>
-  <div class="post-content">
+  <div class="service-content">
     <%= data.body %>
   </div>
 </article>
