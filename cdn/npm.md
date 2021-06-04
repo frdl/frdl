@@ -9,7 +9,7 @@ title: NPM CDN Mirror Compilation
 Fetch source code from public content delivery networks...
 
 <div class="container">
-<form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
+<form action="/_redirect.php" method="POST" target="_blank">
  
  <input type="hidden" name="packageType" value="npm" /> 
  
