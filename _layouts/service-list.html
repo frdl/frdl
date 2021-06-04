@@ -1,0 +1,22 @@
+<!-- Service List Template -->
+<div class="service-list fade-in">
+   <% data.forEach(function(servicelist) { %>
+
+  <% servicelist.forEach(function(service) { %>
+
+      <article class="service">
+        <h1 class="service-title">
+          <a href="<%= service.id %>"><%= service.title %></a>
+        </h1>
+       
+        <div class="service-type">
+          <% if(service.type) { %>
+            <p><%= service.type %></p>
+          <% } %>
+        </div>
+      </article>
+
+  <% }) %>
+    
+     <% }) %>
+</div>
