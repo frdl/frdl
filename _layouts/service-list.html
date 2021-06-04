@@ -1,6 +1,6 @@
 <!-- Service List Template -->
 <div class="service-list fade-in">
-   <% data.forEach(function(servicelist) { %>
+   <% for servicelist in data %>
 
   <% servicelist.forEach(function(service) { %>
 
@@ -18,5 +18,5 @@
 
   <% }) %>
     
-     <% }) %>
+     <% } %>
 </div>
