@@ -10,7 +10,7 @@ title: Online webpack/webfanpack
 Experimental Online Webpack Bundlers **(not for production, DEV or BETA stage!)**
 
 <div class="container">
-<form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
+<form action="https://cdn.frdl.io/redirect.php" method="POST" target="_blank">
  
   <legend>Packager/Bundler</legend>
  <select name="packageType">
