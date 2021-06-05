@@ -23,11 +23,9 @@ Host and share any contents (small or medium sized) of the type HTML, Javascript
 
 ##### Generate Asset Link
 <div class="container">
-<form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
- 
+<form action="https://cdn.frdl.io/redirect.php" method="POST" target="_blank"> 
  <input type="hidden" name="packageType" value="webfantized-ca-permalink-experiment" /> 
- <input type="hidden" name="packageName" value="*"  /> 
- 
+ <input type="hidden" name="packageName" value="*"  />  
  <legend>Type</legend>
  <select name="plugin">
  <option value="js" selected>application/javascript</option>
@@ -35,17 +33,13 @@ Host and share any contents (small or medium sized) of the type HTML, Javascript
  <option value="html">text/html</option>
  <option value="json">application/json</option>
  <option value="jsonp">application/jsonp</option>
- </select>
- 
+ </select> 
  <p id="callback">
    <legend>Callback</legend>
   <input type="text" style="display:none;" name="plugin_method" value="callback"  /> 
-  </p>
-  
+  </p>  
  <legend>Code/Contents</legend>
  <textarea name="code" placeholder="window.alert('Example');" style="width:95%;height:364px;"></textarea>
-
   <input type="submit" value="Go..." /> 
 </form>
 </div>
-
