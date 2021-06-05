@@ -1,5 +1,6 @@
 ---
 title: Free headless assets CDN
+type: hosting
 ---
 
 [Other CDN options...](./)
@@ -28,7 +29,7 @@ Host and share any contents (small or medium sized) of the type HTML, Javascript
  <input type="hidden" name="packageName" value="*"  /> 
  
  <legend>Type</legend>
- <select name="plugin" onchange="var v=this.options[this.selctedIndex].value, e = document.getElementById('callback'); if(v==='jsonp'){e.style.display='inline-block';}else{e.style.display='none';}">
+ <select name="plugin">
  <option value="js" selected>application/javascript</option>
  <option value="css">text/css</option>
  <option value="html">text/html</option>
