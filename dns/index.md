@@ -106,3 +106,4 @@ Mainly:
 </div>	
 </div>	
 
+   <script type="text/javascript" src="https://cdn.frdl.io/@frdl/components/frdl-plugs/frdlweb-legacy.js" async></script>
