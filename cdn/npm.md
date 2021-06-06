@@ -1,5 +1,13 @@
 ---
 title: NPM CDN Mirror Compilation
+type: cdn
+tags: 
+ - experimental
+ - cdn
+ - repository
+ - registry
+ - npm
+ - javascript
 ---
 
 [Other CDN options...](./)
