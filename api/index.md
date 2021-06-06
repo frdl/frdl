@@ -14,16 +14,15 @@ tags:
   <hr>
 
     <ul>
-  <li><a href="./developer">Developer</a></li><li><a href="./documentation">Documentation</a></li><li><a href="./redoc">Referenz</a></li><li><a href="./swagger-ui">API-Explorer</a></li><li><a href="https://dns.api.webfan.de">DNS API</a></li>	  
+  <li><a href="https://apps.api.frdl.de/developer">Developer</a></li><li><a href="https://apps.api.frdl.de/documentation">Documentation</a></li><li><a href="https://apps.api.frdl.de//redoc">Referenz</a></li><li><a href="https://apps.api.frdl.de/swagger-ui">API-Explorer</a></li><li><a href="https://dns.api.webfan.de">DNS API</a></li>	  
   </ul>
-	
 	
 	<ul>
 <li><a href="https://frdl.ws">WORKSPACE</a></li><li><a href="https://frdl.de">more services...</a></li>	</ul>
 	
 	 <h3 style="padding:16px;">Experimental &amp; Fun</h3>
 	<ul>
-		<li><a href="https://frdl.ws/ws-markdown/demo/" target="_blank">Online Markdown Editor</a></li>
+		<li><a href="https://examples.frdl.ws/vendor/ws-markdown/demo/" target="_blank">Online Markdown Editor</a></li>
 	<li><a href="https://terminal.api.webfan.de/" target="_blank">WebAssembly Shell</a></li>
-				<li><a href="https://frdl.ws/ws-php-0/demo/interactive.html" target="_blank">Online Php Runtime (javascript unister)</a></li>	
+				<li><a href="https://examples.frdl.ws/vendor/ws-php-0/" target="_blank">Online Php Runtime (javascript unister)</a></li>	
 	</ul>
