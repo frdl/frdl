@@ -2,8 +2,8 @@
 title: About Frdlweb
 ---
 
-[![Home Icon](/favicon.ico) Home](/)
-
+![Home Icon](/favicon.ico) [Home](/)
+ 
 # About Frdlweb
 The `Frdlweb` project is maintained and owned by [Till Wehowski](https://domainundhomepagespeicher.webfan.de/portifolio--welche-produkte-und-techniken-bietet-domainundhomepagespeicher,de-im-detail.248.html), a coder and webhoster located in Bochum (Germany).
 
