@@ -1,6 +1,9 @@
 ---
 title: Free headless assets CDN
 type: hosting
+tags: 
+ - experimental
+ - repsoitory
 ---
 
 [Other CDN options...](./)
