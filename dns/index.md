@@ -105,17 +105,4 @@ Mainly:
 </div>	
 </div>	
 </div>	
- <script type="text/javascript" src="https://cdn.frdl.io/@frdl/components/frdl-plugs/frdlweb-legacy.js"></script>
- <script type="text/javascript">
- process.ready(()=>{
-	window.angular.module('frdl.io', ['ui.router']).config(['$locationProvider', function($locationProvider) {
-		
-		
-		$locationProvider.html5Mode({
-			enabled : false,
-			requireBase : true,
-			rewriteLinks : true
-		});
-	}]);
-});
-</script>
+
