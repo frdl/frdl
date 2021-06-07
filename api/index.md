@@ -15,11 +15,9 @@ tags:
 
     <ul>
   <li><a href="https://apps.api.frdl.de/developer">Developer</a></li><li><a href="https://apps.api.frdl.de/documentation">Documentation</a></li><li><a href="https://apps.api.frdl.de//redoc">Referenz</a></li><li><a href="https://apps.api.frdl.de/swagger-ui">API-Explorer</a></li><li><a href="https://dns.api.webfan.de">DNS API</a></li>	  
-  </ul>
-	
+  </ul>	
 	<ul>
-<li><a href="https://frdl.ws">WORKSPACE</a></li><li><a href="https://frdl.de">more services...</a></li>	</ul>
-	
+<li><a href="https://frdl.ws">WORKSPACE</a></li><li><a href="https://frdl.de">more services...</a></li>	</ul>	
 	 <h3 style="padding:16px;">Experimental &amp; Fun</h3>
 	<ul>
 		<li><a href="https://examples.frdl.ws/vendor/ws-markdown/demo/" target="_blank">Online Markdown Editor</a></li>
