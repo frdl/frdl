@@ -1,8 +1,9 @@
 ---
 title: Online webpack/webfanpack
+type: cdn
 ---
 
-[Other CDN options...](./)
+[Other CDN options...](cdn/index)
 
 
 #### Bundle Packages (webfanpack-js/webpack - runkit powered)
