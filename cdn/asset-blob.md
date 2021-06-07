@@ -6,7 +6,7 @@ tags:
  - repsoitory
 ---
 
-[Other CDN options...](./)
+[Other CDN options...](cdn/index)
 
 ## Asset Link (webfantized-ca-permalink-experiment)
 
