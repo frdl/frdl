@@ -1,10 +1,9 @@
 ---
 title: PHP Psr4 from remote CDN
+type: cdn
 ---
 
-
-[Other CDN options...](./)
-
+[Other CDN options...](cdn/index)
 
 # PHP Psr4 from remote CDN
 
