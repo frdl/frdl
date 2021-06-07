@@ -10,7 +10,7 @@ tags:
  - javascript
 ---
 
-[Other CDN options...](./)
+[Other CDN options...](cdn/index)
 
 ## NPM Package ([Javascript](https://www.npmjs.com/~webfan))
 
