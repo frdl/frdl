@@ -11,9 +11,7 @@ tags:
   
   # Frdlweb API
   
-  <hr>
-
-    <ul>
+   <ul>
   <li><a href="https://apps.api.frdl.de/developer">Developer</a></li><li><a href="https://apps.api.frdl.de/documentation">Documentation</a></li><li><a href="https://apps.api.frdl.de//redoc">Referenz</a></li><li><a href="https://apps.api.frdl.de/swagger-ui">API-Explorer</a></li><li><a href="https://dns.api.webfan.de">DNS API</a></li>	  
   </ul>	
 	<ul>
