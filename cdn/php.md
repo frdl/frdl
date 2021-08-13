@@ -9,6 +9,27 @@ type: cdn
 
 To use the *php CDN* in a project, you can use [the package `frdl/remote-psr4`](https://github.com/frdl/remote-psr4) and autoload php classes on demand from one or more remote servers. Further you can map namespaces to remote-folders, etc... .
 
+# runkit.com powered js php vm
+
+<div class="container">
+<form action="https://cdn.frdl.io/redirect.php" method="POST" target="_blank">
+
+   <input type="hidden" name="packageType" value="php-code" /> 
+ 
+ <legend>Code (php)</legend>
+ <textarea name="code" placeholder="<?php print 'Hello from PHP!';" style="width:95%;height:364px;"></textarea>
+ 
+ <legend>Response type</legend>
+ <select name="ct">
+ <option value="application/javascript">application/javascript</option>
+ <option value="text/html" selected>text/html</option>
+ <option value="text/plain">text/plain</option>
+ </select>
+ 
+ 
+  <input type="submit" value="Go..." /> 
+</form>
+</div>
 
 #### Look-Up Class File ([PHP](https://frdl.webfan.de/install/?source=*))
 
