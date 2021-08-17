@@ -15,7 +15,9 @@ To use the *php CDN* in a project, you can use [the package `frdl/remote-psr4`](
 <form action="https://cdn.frdl.io/redirect.php" method="POST" target="_blank">
 
    <input type="hidden" name="packageType" value="php-code" /> 
- 
+   <input type="hidden" name="packageName" value="WhatTheFuckAndWhyNotThisCrazyVirtualMachine" /> 
+   
+   
  <legend>Code (php)</legend>
  <textarea name="code" placeholder="<?php print 'Hello from PHP!';" style="width:95%;height:364px;"></textarea>
  
