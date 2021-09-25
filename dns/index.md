@@ -2,6 +2,9 @@
 title: DNS over HTTPS
 ---
 
+****CURRENTLY UPGRADING TO NEXT VERSION MAINTENANCE****
+
+
 # Custom DNS Over HTTPS Resolver
 On this page you can generate your <sup class="language-plaintext badge badge-success">FREE</sup> own Custom DNS Over HTTPS Resolver Server-Url.
 
