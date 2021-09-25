@@ -19,7 +19,7 @@ To use the *php CDN* in a project, you can use [the package `frdl/remote-psr4`](
    
    
  <legend>Code (php)</legend>
- <textarea name="code" placeholder="<?php print 'Hello from PHP!';" style="width:95%;height:364px;"></textarea>
+ <textarea name="code" placeholder="  print 'Hello from PHP!';" style="width:95%;height:364px;"></textarea>
  
  <legend>Response type</legend>
  <select name="ct">
