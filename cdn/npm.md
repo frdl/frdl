@@ -17,7 +17,7 @@ tags:
 Fetch source code from public content delivery networks...
 
 <div class="container">
-<form action="/_redirect.php" method="POST" target="_blank">
+<form action="https://cdn.frdl.de/redirect.php" method="POST" target="_blank">
  
  <input type="hidden" name="packageType" value="npm" /> 
  
