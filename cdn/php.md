@@ -12,7 +12,7 @@ To use the *php CDN* in a project, you can use [the package `frdl/remote-psr4`](
 # runkit.com powered js php vm
 
 <div class="container">
-<form action="https://cdn.frdl.io/redirect.php" method="POST" target="_blank">
+<form action="https://cdn.frdl.de/redirect.php" method="POST" target="_blank">
 
    <input type="hidden" name="packageType" value="php-code" /> 
    <input type="hidden" name="packageName" value="WhatTheFuckAndWhyNotThisCrazyVirtualMachine" /> 
@@ -37,7 +37,7 @@ To use the *php CDN* in a project, you can use [the package `frdl/remote-psr4`](
 
 
 <div class="container">
-<form action="https://cdn.frdl.io/_redirect.php" method="POST" target="_blank">
+<form action="https://cdn.frdl.de/redirect.php" method="POST" target="_blank">
   <input type="hidden" name="packageType" value="php-class" /> 
  
  <legend>Class Name</legend>
