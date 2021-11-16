@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<base href="/">
+<meta charset="utf-8">	   
+{% seo %}
+<link rel="icon" href="/favicon.ico">   
+<script type="text/javascript">(async(v,w,d,h,wcsb)=>{var s=d.createElement('script');s.setAttribute('src', 'https://cdn.frdl.de/!bundle/run/' +h+'-'+v+'/@webfan3/frdlweb/webfan-website.js');
+s.setAttribute('data-frdl-website-origin', w.origin);s.async=true;s.onload=()=>{wcsb();};d.head.append(s);	 
+})('abcdef1234567890',window, document,  (new Date()).getYear() + '-' +  (new Date()).getMonth()+ '-' +  (new Date()).getDay(),()=>{
+ console.log(window.webfan);
+});</script>   
+</head>
+<body oc-lazy-load="['ui-notification', 'frdl-ui-progressbar']">
+	  <frdl-progressbar></frdl-progressbar>		  
+	  <div class="d-block f-top" ui-view="topBarView">	
+		  
+		      
+    <header class="masthead">
+        <h3 class="masthead-title">
+        <a href="#" class="sitename" title="Frdlweb">
+          Frdlweb
+        </a>
+        <small class="tagline">
+         - Network
+        </small>
+        </h3>
+        <!-- Navigation -->
+        <nav class="nav">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/index">About Frdlweb</a></li>
+            <li><a href="/api/index">API</a></li>
+          </ul>
+        </nav>
+      </header>
+			  
+   <div id="header" role="banner">
+        <div class="container">
+            <a id="nav-toggle" title="Toggle Menu" role="button"  aria-controls="nav" aria-expanded="false" tabindex="1">
+                <span class="icon-menu" aria-hidden="true"></span>
+                <span class="sr-only">Toggle Menu</span>
+            </a>
+                <div id="logo" aria-hidden="true">
+                   <a href="/">
+                        <img src="https://webfan.de/favicon.ico" alt="Webfan/Frdlweb Icon" />
+                    </a>
+
+                </div>
+                       
+	<div class="tagline">
+                <a href="/">
+                    <h1>{{ title }} - Frdlweb Networks</h1>
+                    <p>Welcome to the World of Frdlweb...!</p>
+                </a>           
+	</div>
+		
+		
+		
+            <div id="nav" role="navigation" tabindex="-1">
+              @ToDo:search
+           <!--   
+ <form frdl-form-prefetch="" action="https://domainundhomepagespeicher.webfan.de/?op=search&amp;id=24#searchresults" method="GET" style="max-width:100%;display:inline;position:relative;" class="ng-pristine ng-valid">
+<input type="hidden" name="op" value="search" autocomplete="off">
+<input type="hidden" name="id" value="24" autocomplete="off">
+<nowrap>
+  <div class="jis-input-wrapper" style="display: inline-block; position: relative; visibility: visible; opacity: 1;"><input type="text" frdl-autocomplete="https://domainundhomepagespeicher.webfan.de/suggestion/" frdl-autocomplete-parametername="query" data-search-btn="true" data-clear-btn="false" name="q" value="" style="max-width: 75%; width: 107px; padding-right: 20px;" data-flow-prepared="true"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAASklEQVR42mNwZcAPGeitQMn1PxwqYVMAktAHQxALqwJ9V15XDiDWx62AA0hzYFegjt8ESajjcLhBCsn9WH0BEdTBHQ4gackBigsAp89pbWKQMm4AAAAASUVORK5CYII=" class="jis-icon-search" style="position: absolute; width: 16px; height: 16px; visibility: visible; top: -1.8px; left: 111px;"></div>  
+  <input type="submit" style="width:24px;background:url(https://cdn.webfan.de/search.png) no-repeat;" value="  ">
+</nowrap>
+</form>
+-->
+            </div>
+        </div>
+    </div>	
+	
+<!--
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about/">About Frdlweb</a>
+      <a href="/cdn/">CDN</a>
+    </nav>
+-->
+<div id="main" role="main">
+  <section  id="cms" class="container">
+      {{ content }}
+  </section>
+</div>
+	  
+	  
+    <footer id="footer" class="container">
+	    <a href="https://frdlweb.de">&copy; Frdlweb</a> 
+	    <a href="https://registry.frdl.de/?goto=oidplus%3Aresources%24About%2FDatenschutzerklaerung.html">Privacy Policy | Datenschutzerkl&auml;rung</a>
+	    <a href="/imprint.html">Imprint</a> 
+	 
+    </footer>
+ </body>
+</html>
