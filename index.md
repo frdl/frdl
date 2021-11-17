@@ -9,7 +9,7 @@ Welcome to the World of [Frdlweb](https://Frdlweb.de), its [Software](https://fr
 
 ### Services and Products
 + [`Webfan Homepagesystem` Websites](https://webfan.de)
-+ [`Homepagespeicher` Domain Registrant and Webhoster](https://homepagespeicher.de)
++ [`Domain und Homepagespeicher` Domain Registrant and Webhoster](https://domainundhomepagespeicher.de)
 + [OID/`WEID` Registry](https://registry.frdl.de/?goto=com.frdlweb.freeweid)
 + [more...](https://frdl.de)
 
