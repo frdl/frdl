@@ -1,6 +1,2 @@
 User-agent: *
-Allow: /
-Allow: /*
-Disallow: /private/*
-Disallow: /temp_weekly/
-Disallow: /cache-public/
+Disallow: /private/
