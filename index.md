@@ -11,6 +11,7 @@ Welcome to the World of [Frdlweb](https://Frdlweb.de), its [Software](https://fr
 + [`Webfan Homepagesystem` Websites](https://webfan.de)
 + [`Domain und Homepagespeicher` Domain Registrant and Webhoster](https://domainundhomepagespeicher.de)
 + [OID/`WEID` Registry](https://registry.frdl.de/?goto=com.frdlweb.freeweid)
++ [`STARTforum` Social Network](https://startforum.de)
 + [more...](https://frdl.de)
 
 ### Software
