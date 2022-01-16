@@ -86,11 +86,13 @@ s.setAttribute('data-frdl-website-origin', w.origin);s.async=true;s.onload=()=>{
 </div>
 	  
 	  
-    <footer id="footer" class="container">
+    <footer id="footer" class="container" frdl-if-js-remove="3">
 	    <a href="https://frdlweb.de">&copy; Frdlweb</a> 
 	    <a href="https://registry.frdl.de/?goto=oidplus%3Aresources%24About%2FDatenschutzerklaerung.html">Privacy Policy | Datenschutzerkl&auml;rung</a>
 	    <a href="/imprint.html">Imprint</a> 
 	 
     </footer>
+	
+	<webfan-footer-links></webfan-footer-links>
  </body>
 </html>
