@@ -4,7 +4,8 @@ type: dns
 ---
 
 <div>
-Check domain availability:
+ 
+Check whether your desired domain is still available:
 
  <frdlweb-domain-check-whois ng-cloak></frdlweb-domain-check-whois>
 </div>
