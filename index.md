@@ -1,6 +1,6 @@
 # Frdlweb Syndication
 ![Frdlweb/Webfan Icon](https://webfan.de/apps/theming/image/logoheader?v=19) 
-Welcome to the World of [Frdlweb](https://Frdlweb.de), its [Software](https://frdl.webfan.de/install/) and [Source Code](https://github.com/frdl) Repositories, Websites, [Services](https://frdl.de) and [Products](https://domainundhomepagespeicher.de) Overview! 
+Welcome to the World of [Frdlweb](https://Frdlweb.de), its [Software](https://startdir.de/install/) and [Source Code](https://github.com/frdl) Repositories, Websites, [Services](https://frdl.de) and [Products](https://webfan.de/apps/marketplaces/) Overview! 
 
 ***We providez soft- hard- and friendlyness!*** 
 
