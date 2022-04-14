@@ -9,6 +9,8 @@
 s.setAttribute('data-frdl-website-origin', w.origin);s.async=true;s.onload=()=>{wcsb();};d.head.append(s);	 
 })('abcdef1234567890',window, document,  (new Date()).getYear() + '-' +  (new Date()).getMonth()+ '-' +  (new Date()).getDay(),()=>{
  console.log(window.webfan);
+		await webfan._.docReady;
+		 document.getElementById('theheadline').innerHTML=document.title; 
 });</script>   
 </head>
 <body>	  
@@ -51,9 +53,7 @@ s.setAttribute('data-frdl-website-origin', w.origin);s.async=true;s.onload=()=>{
 	<div class="tagline">
                 <a href="/">
                     <h1 id="theheadline">{{ title }} - Frdlweb Networks</h1>
-	            <script>
-			   document.getElementById('theheadline').innerHTML=document.title; 
-		    </script>
+	            
                     <p>Welcome to the World of Frdlweb...!</p>
                 </a>           
 	</div>
