@@ -10,7 +10,7 @@ s.setAttribute('data-frdl-website-origin', w.origin);s.async=true;s.onload=()=>{
 })('abcdef1234567890',window, document,  (new Date()).getYear() + '-' +  (new Date()).getMonth()+ '-' +  (new Date()).getDay(),()=>{
  console.log(window.webfan);
 		await webfan._.docReady;
-		 document.getElementById('theheadline').innerHTML=document.title; 
+		 document.getElementById('theheadline').innerHTML=document.querySelector('title').innerHTML; 
 });</script>   
 </head>
 <body>	  
