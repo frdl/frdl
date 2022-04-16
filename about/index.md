@@ -4,7 +4,6 @@ title: About Frdlweb
 
 ![Home Icon](/favicon.ico) [Home](/)
  
-# About Frdlweb
 The `Frdlweb` project is maintained and owned by [Till Wehowski](https://webfan.de/u/frdl-github-2658030), a coder and webhoster located in Bochum (Germany).
 
 It was founded in the late 90s by [Georg Wehowski](https://wehowski.de) as a hobby project serving a free-time single groups platform and became a commercial webhosting provider since 2004 until the end of 2021.
