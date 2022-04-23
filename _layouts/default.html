@@ -1,33 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
+  <title>{{ title }}</title>
+ 
 <base href="/">
 <meta charset="utf-8">	   
 {% seo %}
-<link rel="icon" href="/favicon.ico">   
-<script type="text/javascript">(async(v,w,d,h,wcsb)=>{var s=d.createElement('script');s.setAttribute('src', 'https://cdn.frdl.de/!bundle/run/' +h+'-'+v+'/@webfan3/frdlweb/webfan-website.js');
-s.setAttribute('data-frdl-website-origin', w.origin);s.async=true;s.onload=()=>{wcsb();};d.head.append(s);	 
-})('abcdef1234567890',window, document,  (new Date()).getYear() + '-' +  (new Date()).getMonth()+ '-' +  (new Date()).getDay(),async()=>{
- console.log(window.webfan);
-		await webfan._.docReady;
-		 document.getElementById('theheadline').innerHTML=document.querySelector('title').innerHTML.split(/\|/)[0].trim(); 
-});</script>   
+<link rel="icon" href="/favicon.ico"> 
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body>	  
-<div class="d-block f-top">	
-		  
-		      
-    <header class="masthead">
-        <h3 class="masthead-title">
-        <a href="#" class="sitename" title="Frdlweb">
-          Frdlweb
-        </a>
-        <small class="tagline">
-         - Network
-        </small>
-        </h3>
-        <!-- Navigation -->
-        <nav class="nav">
+<body>
+
+<div class="container" style="margin-top:64px">
+	<a href="/">
+  <img style="float:left;margin-right:8px;" src="https://cdn.frdl.de/@webfan3/website/logos/webfan-blue-medium.jpg">
+</a>
+	
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about/index">About Frdlweb</a></li>
@@ -35,65 +24,45 @@ s.setAttribute('data-frdl-website-origin', w.origin);s.async=true;s.onload=()=>{
             <li><a href="/dns/domain-check">Domain-Check</a></li>
             <li><a href="/api/rdap/whois">Whois</a></li>
           </ul>
-        </nav>
-      </header>
-			  
-   <div id="header" role="banner">
-        <div class="container">
-            <a id="nav-toggle" title="Toggle Menu" role="button"  aria-controls="nav" aria-expanded="false" tabindex="1">
-                <span class="icon-menu" aria-hidden="true"></span>
-                <span class="sr-only">Toggle Menu</span>
-            </a>
-                <div id="logo" aria-hidden="true">
-                   <a href="/">
-                        <img src="https://webfan.de/favicon.ico" alt="Webfan/Frdlweb Icon" />
-                    </a>
 
-                </div>
-                          
-	<div class="tagline"><h1 id="theheadline">{{ title }} - Frdlweb Networks</h1></div>		
-		
- <div id="nav" role="navigation" tabindex="-1">
-       <!--            @ToDo:search
-         
- <form frdl-form-prefetch="" action="https://domainundhomepagespeicher.webfan.de/?op=search&amp;id=24#searchresults" method="GET" style="max-width:100%;display:inline;position:relative;" class="ng-pristine ng-valid">
-<input type="hidden" name="op" value="search" autocomplete="off">
-<input type="hidden" name="id" value="24" autocomplete="off">
-<nowrap>
-  <div class="jis-input-wrapper" style="display: inline-block; position: relative; visibility: visible; opacity: 1;"><input type="text" frdl-autocomplete="https://domainundhomepagespeicher.webfan.de/suggestion/" frdl-autocomplete-parametername="query" data-search-btn="true" data-clear-btn="false" name="q" value="" style="max-width: 75%; width: 107px; padding-right: 20px;" data-flow-prepared="true"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAASklEQVR42mNwZcAPGeitQMn1PxwqYVMAktAHQxALqwJ9V15XDiDWx62AA0hzYFegjt8ESajjcLhBCsn9WH0BEdTBHQ4gackBigsAp89pbWKQMm4AAAAASUVORK5CYII=" class="jis-icon-search" style="position: absolute; width: 16px; height: 16px; visibility: visible; top: -1.8px; left: 111px;"></div>  
-  <input type="submit" style="width:24px;background:url(https://cdn.webfan.de/search.png) no-repeat;" value="  ">
-</nowrap>
-</form>
--->
-            </div>
-        </div>
-    </div>	
-	
-<!--
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about/">About Frdlweb</a>
-      <a href="/cdn/">CDN</a>
-    </nav>
--->
 <div id="main" role="main">
   <section  id="cms" class="container">
       {{ content }}
   </section>
-	
-	
 </div>
-	  
-	  
-    <footer id="footer" class="container">
-	  <span frdl-if-js-remove="0"> 
-	    <a href="https://frdlweb.de">&copy; Frdlweb</a> 
-	    <a href="https://registry.frdl.de/?goto=oidplus%3Aresources%24About%2FDatenschutzerklaerung.html">Privacy Policy | Datenschutzerkl&auml;rung</a>
-	    <a href="/imprint.html">Imprint</a> 
-	   </span> 
-	 <webfan-footer-links></webfan-footer-links>
-    </footer>
 	
 	
- </body>
+	 <webfan-footer-links></webfan-footer-links>	
+</div>
+	
+	
+  
+<footer class="container-fluid fusio-footer" frdl-if-js-remove="2">
+   
+	<div style="margin:5px;display:inline-block;">
+		             
+			 <a class="btn-sm btn-primary" href="https://webfan.de">Home</a>
+			  <a class="btn-sm btn-info" href="https://status.frdl.de">System Status</a>
+			</div>
+			<div style="margin:5px;display:inline-block;">
+			<a class="btn-sm btn-info" href="https://registry.frdl.de/?goto=oidplus%3Aresources%24About%2FDatenschutzerklaerung.html">Datenschutzerkl&auml;rung Privacy Policy</a>
+			 <a class="btn-sm btn-info" href="https://registry.frdl.de/?goto=oidplus%3Aresources%24About%2FImpressum.html">Impressum Imprint</a>
+			 </div>
+			
+	<div style="margin:5px;">
+			 &copy; <a href="https://webfan.de/contact/">Webfan Homepagesystem</a>
+			 - Your friendly web provider!
+	</div>
+	
+	
+</footer>
+ 
+<script type="text/javascript">(async(v,w,d,h,wcsb)=>{var s=d.createElement('script');s.setAttribute('src', 'https://cdn.frdl.de/!bundle/run/' +h+'-'+v+'/@webfan3/frdlweb/webfan-website.js');
+s.setAttribute('data-frdl-website-origin', w.origin);s.async=true;s.onload=()=>{wcsb();};d.head.append(s);	 
+})('abcdef1234567890',window, document,  (new Date()).getYear() + '-' +  (new Date()).getMonth()+ '-' +  (new Date()).getDay(),async()=>{
+ console.log(window.webfan);
+		await webfan._.docReady;
+		 document.getElementById('theheadline').innerHTML=document.querySelector('title').innerHTML.split(/\|/)[0].trim(); 
+});</script>   
+</body>
 </html>
