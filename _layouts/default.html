@@ -7,7 +7,7 @@
 <link rel="icon" href="/favicon.ico"> 
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-	  <link rel="stylesheet" href="https://software-download.frdlweb.de/content/themes/basic-with-responsive-menu/style.css" type="text/css" media="all" />
+	  <link rel="stylesheet" href="https://raw.githubusercontent.com/frdl/frdl/gh-pages/style.css" type="text/css" media="all" />
 </head>
 <body>
 <div id="header" role="nav">
@@ -37,7 +37,7 @@
 <a href="/cdn/index">CDN</a>
 </li>
 <li>
-Domain
+<a href="javascript:;">Domain</a>
 <ul>
 <li>
 <a href="/dns/domain-check">Domain-Check</a>
@@ -57,16 +57,7 @@ Domain
 </ul>
 </nav>
 </div>	
-<!--	
-<ul style="inline-block; list-style: none;float:center;">
-	<li><a href="/">Home</a></li>
-	<li><a href="/about/index">About</a></li>
-	<li><a href="/cdn/index">CDN</a></li>
-<li><a href="/api/index">API</a></li>
-	<li><a href="/dns/domain-check">Domain-Check</a></li>
-	<li><a href="/api/rdap/whois">Whois</a></li>
-	</ul>
--->
+
 </div>	
 
 <div class="container" style="margin-top:64px">	
@@ -75,8 +66,10 @@ Domain
       {{ content }}
   </section>
 </div>
-<webfan-footer-links></webfan-footer-links>	
 </div>
+
+<div class="footer">	
+<webfan-footer-links></webfan-footer-links>		
 <footer class="container-fluid fusio-footer" frdl-if-js-remove="2">
 	<div style="margin:5px;display:inline-block;">
 		             
@@ -93,7 +86,8 @@ Domain
 			 - Your friendly web provider!
 	</div>
 </footer>
- 
+</div>
+	
 <script type="text/javascript">(async(v,w,d,h,wcsb)=>{var s=d.createElement('script');s.setAttribute('src', 'https://cdn.frdl.de/!bundle/run/' +h+'-'+v+'/@webfan3/frdlweb/webfan-website.js');
 s.setAttribute('data-frdl-website-origin', w.origin);s.async=true;s.onload=()=>{wcsb();};d.head.append(s);	 
 })('abcdef1234567890',window, document,  (new Date()).getYear() + '-' +  (new Date()).getMonth()+ '-' +  (new Date()).getDay(),async()=>{
@@ -101,6 +95,5 @@ s.setAttribute('data-frdl-website-origin', w.origin);s.async=true;s.onload=()=>{
 		//await webfan._.docReady;
 		// document.getElementById('theheadline').innerHTML=document.querySelector('title').innerHTML.split(/\|/)[0].trim(); 
 });</script> 
-	
 </body>
 </html>
