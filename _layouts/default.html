@@ -7,12 +7,57 @@
 <link rel="icon" href="/favicon.ico"> 
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+	  <link rel="stylesheet" href="https://software-download.frdlweb.de/content/themes/basic-with-responsive-menu/style.css" type="text/css" media="all" />
 </head>
 <body>
 <div id="header" role="nav">
 	<a href="/">
   <img style="float:left;margin-right:8px;" src="https://cdn.frdl.de/@webfan3/website/logos/webfan-blue-medium.jpg">
 </a>
+	
+  <div id="menu">
+  <div id="menu_btn">
+    <label for="drop">
+      <svg width="26" height="20" viewBox="0 0 13 10">
+        <path d="M0,1 13,1" stroke="#fff" stroke-width="2"></path>
+        <path d="M0,5 13,5" stroke="#fff" stroke-width="2"></path>
+        <path d="M0,9 13,9" stroke="#fff" stroke-width="2"></path>
+      </svg>
+    </label>
+  </div>
+  <input id="drop" type="checkbox">
+  <nav id="mainnav"><ul>
+<li>
+<a href="/">Home</a>
+</li>
+<li>
+<a href="/about/index">About</a>
+</li>
+<li>
+<a href="/cdn/index">CDN</a>
+</li>
+<li>
+Domain
+<ul>
+<li>
+<a href="/dns/domain-check">Domain-Check</a>
+</li>
+<li>
+<a href="/api/rdap/whois">Whois</a>
+</li>
+
+	
+</ul>
+</li>
+	  
+	
+<li>
+<a href="/api/index">API</a>
+</li>	  
+</ul>
+</nav>
+</div>	
+<!--	
 <ul style="inline-block; list-style: none;float:center;">
 	<li><a href="/">Home</a></li>
 	<li><a href="/about/index">About</a></li>
@@ -21,6 +66,7 @@
 	<li><a href="/dns/domain-check">Domain-Check</a></li>
 	<li><a href="/api/rdap/whois">Whois</a></li>
 	</ul>
+-->
 </div>	
 
 <div class="container" style="margin-top:64px">	
