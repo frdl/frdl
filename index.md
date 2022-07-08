@@ -15,7 +15,7 @@ Welcome to the World of [Frdlweb](https://Frdlweb.de), its [Software](https://we
 + [more...](https://frdl.de)
 
 ### Software
-+ [Installation Wizard](https://startdir.de/install/)
++ [Installation Wizards](https://webfan.de/install/)
 + [Composer Packages](https://packages.frdl.de)
 + [Code Repositories](https://github.com/frdl)  
 
