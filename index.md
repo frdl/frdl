@@ -1,6 +1,6 @@
 # Frdlweb Syndication
  
-Welcome to the World of [Frdlweb](https://Frdlweb.de), its [Software](https://startdir.de/install/) and [Source Code](https://github.com/frdl) Repositories, Websites, [Services](https://frdl.de) and [Products](https://webfan.de/apps/marketplaces/) Overview! 
+Welcome to the World of [Frdlweb](https://Frdlweb.de), its [Software](https://webfan.de/install/) and [Source Code](https://github.com/frdl) Repositories, Websites, [Services](https://frdl.de) and [Products](https://webfan.de/apps/marketplaces/) Overview! 
 
 ***We providez soft- hard- and friendlyness!*** 
 
