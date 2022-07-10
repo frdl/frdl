@@ -11,4 +11,4 @@ Our Content Delivery Network, the `Frdlweb CDN` ( `cdn.frdl.de` ) is powered by 
 
 For example, the Frdlweb CDN is the host of our [webfan-website.js project](https://cdn.frdl.de/@webfan3/frdlweb/), wich runs most of the webfans/frdlwebs websites javascripts event this site.
 
-If you want to run your own content on our CDN, you must go with [Webfan Hub](https://webfan.io/), so far.
+If you want to run your own content on our CDN, you can start with [Webfan Hub](https://webfan.io/), so far.
