@@ -3,7 +3,10 @@ title: About Frdlweb
 ---
 
 
+
 <div ng-show="langIsDefault==true || langShortCode=='en'" frdl-markdown>
+ 
+ 
  
 # About `Frdlweb`
  
@@ -19,11 +22,15 @@ Please note that ***frdl*** is an abbreviation of the german word `"freundlich"`
 
 So we, the Wehowskis, our friends, partners, customers and users, we **make** the ***Frdlweb*** all together!
 
- </div>
+
+
+</div>
  
  
  
 <div ng-show="langShortCode=='de'" ng-cloak frdl-markdown>
+ 
+ 
  
 # Über `Frdlweb`
  
@@ -37,4 +44,6 @@ Ihr Hauptziel ist es, die von den Wehowskis genutzte Entwicklungs- und Produktio
 
 Also wir, die Wehowskis, unsere Freunde, Partner, Kunden und Nutzer, wir ergeben das freundliche ***`Frdl`web*** alle ***zusammen***!
 
- </div>
+
+
+</div>
