@@ -3,7 +3,7 @@ title: About Frdlweb
 ---
 
 
-<div ng-show="langIsDefault==true || langShortCode=='en'">
+<div ng-show="langIsDefault==true || langShortCode=='en'" frdl-markdown>
  
 The `Frdlweb` project is maintained by [Till Wehowski](https://webfan.de/u/frdl-github-2658030), a coder and webhoster located in Bochum (Germany).
 
@@ -19,7 +19,7 @@ So at least, we the Wehowskis, our friends, partners, customers and users, we **
  
  
  
-<div ng-show="langShortCode=='de'" ng-cloak>
+<div ng-show="langShortCode=='de'" ng-cloak frdl-markdown>
  
 Das `Frdlweb`-Projekt wird von [Till Wehowski](https://webfan.de/u/frdl-github-2658030) betrieben, einem Programmierer und Webhoster aus Bochum (Deutschland).
 
