@@ -12,3 +12,5 @@ Our Content Delivery Network, the `Frdlweb CDN` ( `cdn.frdl.de` ) is powered by 
 For example, the Frdlweb CDN is the host of our [webfan-website.js project](https://cdn.frdl.de/@webfan3/lastest/), wich runs most of the webfans/frdlwebs websites javascripts, even this site.
 
 If you want to run your own content on our CDN, you can start with [Webfan Hub](https://webfan.io/), so far.
+
+**Do you see a phishing warning for cdn.frdl.de? Please read the info: [https://startforum.de/content/perma?id=814](https://startforum.de/content/perma?id=814)**
