@@ -16,3 +16,15 @@ If you want to run your own content on our CDN, you can start with [Webfan Hub](
 If you want to use it locally/on your own domain, you can use [this module](https://github.com/frdlweb/frdlweb-cdn-module).
 
 **Do you see a phishing warning for cdn.frdl.de? Please read the info: [https://startforum.de/content/perma?id=814](https://startforum.de/content/perma?id=814)**
+
+
+
+<div>
+ To read some information about the software we use, you can 
+ visit the <a href="https://webfan.de/install/">Webfan Software Page</a>
+ or <button class="btn-sm btn-info"
+ onclick="this.parentNode.innerHTML+=atob('PGZyZGx3ZWItc29mdHdhcmUtbGljZW5zZXM+PC9mcmRsd2ViLXNvZnR3YXJlLWxpY2Vuc2VzPg==');"
+  >click this button</button>.
+ <br />
+  <br />
+</div>
