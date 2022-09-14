@@ -23,7 +23,7 @@ If you want to use it locally/on your own domain, you can use [this module](http
  To read some information about the software we use, you can 
  visit the <a href="https://webfan.de/install/">Webfan Software Page</a>
  or <button class="btn-sm btn-info"
- onclick="this.parentNode.innerHTML+=atob('PGZyZGx3ZWItc29mdHdhcmUtbGljZW5zZXM+PC9mcmRsd2ViLXNvZnR3YXJlLWxpY2Vuc2VzPg==');this.disabled=true;"
+ onclick="this.setAttribute('disabled', true);this.parentNode.innerHTML+=atob('PGZyZGx3ZWItc29mdHdhcmUtbGljZW5zZXM+PC9mcmRsd2ViLXNvZnR3YXJlLWxpY2Vuc2VzPg==');"
   >click this button</button>.
  <br />
   <br />
