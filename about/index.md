@@ -47,3 +47,6 @@ Also wir, die Wehowskis, unsere Freunde, Partner, Kunden und Nutzer, wir ergeben
 
 
 </div>
+
+* [@Startforum](https://startforum.de/u/till.wehowski/)
+* @<a rel="me" href="https://phpc.social/@webfan">Mastodon</a>
