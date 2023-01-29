@@ -22,7 +22,7 @@ Please note that ***frdl*** is an abbreviation of the german word `"freundlich"`
 
 So we, the Wehowskis, our friends, partners, customers and users, we **make** the ***Frdlweb*** all together!
 
-
+The cooperation between the two Wehowskis ended at the end of 2021 and we are now going our separate ways.
 
 </div>
  
@@ -44,7 +44,7 @@ Ihr Hauptziel ist es, die von den Wehowskis genutzte Entwicklungs- und Produktio
 
 Also wir, die Wehowskis, unsere Freunde, Partner, Kunden und Nutzer, wir ergeben das freundliche ***`Frdl`web*** alle ***zusammen***!
 
-
+Die Kooperation zwischen den beiden Wehowskis endete Ende 2021 und wir gehen nun getrennte Wege.
 
 </div>
 
