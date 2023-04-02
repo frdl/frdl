@@ -11,11 +11,40 @@ Our Content Delivery Network, the `Frdlweb CDN` ( `cdn.frdl.de` ) is powered by 
 
 For example, the Frdlweb CDN is the host of our [webfan-website.js project](https://cdn.frdl.de/@webfan3/lastest/), wich runs most of the webfans/frdlwebs websites javascripts, even this site.
 
+#### Examples
+* 
+````HTML
+<script>
+((q, w,d)=>{
+var s=d.createElement('script');
+s.setAttribute('src', 'https://cdn.startdir.de/webfan.js?' + q);	
+s.async='false';
+s.onload=async ()=>{
+ frdlweb.ready(()=>{
+     //page and library loaded and bootstrapped...
+     //...
+     //  await window.frdlweb () === await window.require('frdlweb') 
+  });
+};
+d.head.prepend(s);		
+})('DEBUG.enabled=true&website.consent.ads=false&angularjs.html5mode.rewriteLinks=false&angularjs.html5mode.enabled=false',
+   window, document);	
+</script>
+````
+* [Multi-Language](https://github.com/frdl/translations#onpage-multilanguage-example)
+* [DM-Captcha](https://dm-captcha-sas.weid.info/)
+* Domain Check (Simple Whois)
+````HTML
+<frdlweb-domain-check-whois ng-cloak=""></frdlweb-domain-check-whois>
+````
+
 If you want to run your own content on our CDN, you can start with [Webfan Hub](https://webfan.io/), so far.
 
 If you want to use it locally/on your own domain, you can use [this module](https://github.com/frdlweb/frdlweb-cdn-module).
 
-**Do you see a phishing warning for cdn.frdl.de? Please read the info: [https://startforum.de/content/perma?id=814](https://startforum.de/content/perma?id=814)**
+
+
+*Do you see a phishing warning for cdn.frdl.de? Please read the info: [https://startforum.de/content/perma?id=814](https://startforum.de/content/perma?id=814)*
 
 
 
