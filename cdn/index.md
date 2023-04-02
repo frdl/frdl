@@ -38,15 +38,11 @@ d.head.prepend(s);
 <frdlweb-domain-check-whois ng-cloak=""></frdlweb-domain-check-whois>
 ````
 
+# ℹ️ 
+
 If you want to run your own content on our CDN, you can start with [Webfan Hub](https://webfan.io/), so far.
 
 If you want to use it locally/on your own domain, you can use [this module](https://github.com/frdlweb/frdlweb-cdn-module).
-
-
-
-*Do you see a phishing warning for cdn.frdl.de? Please read the info: [https://startforum.de/content/perma?id=814](https://startforum.de/content/perma?id=814)*
-
-
 
 <div>
  To read some information about the software we use, you can 
@@ -57,3 +53,7 @@ If you want to use it locally/on your own domain, you can use [this module](http
  <br />
   <br />
 </div>
+
+ 
+*Do you see a phishing warning for cdn.frdl.de? Please read the info: [https://startforum.de/content/perma?id=814](https://startforum.de/content/perma?id=814)*
+ 
