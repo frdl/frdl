@@ -9,7 +9,7 @@ Our Content Delivery Network, the `Frdlweb CDN` ( `cdn.frdl.de` ) is powered by 
 * [JSDELIVR](https://www.jsdelivr.com/)
 * [UNPKG](https://unpkg.com/)
 
-For example, the Frdlweb CDN is the host of our [webfan-website.js project](https://cdn.frdl.de/@webfan3/lastest/), wich runs most of the webfans/frdlwebs websites javascripts, even this site.
+For example, the Frdlweb CDN is the host of our webfan-website.js project, wich runs most of the webfans/frdlwebs websites javascripts, even this site.
 
 #### Examples
 * Main Core:
