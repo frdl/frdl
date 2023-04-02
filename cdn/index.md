@@ -38,7 +38,7 @@ d.head.prepend(s);
 <frdlweb-domain-check-whois ng-cloak=""></frdlweb-domain-check-whois>
 ````
 
-# ℹ️ 
+# ℹ️ More info...
 
 If you want to run your own content on our CDN, you can start with [Webfan Hub](https://webfan.io/), so far.
 
