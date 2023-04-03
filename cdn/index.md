@@ -5,7 +5,7 @@ title: CDN of Frdlweb
 # Frdlweb CDN
 
 Our Content Delivery Network, the `Frdlweb CDN` ( `cdn.frdl.de` ) is powered by (a proxy random race of):
-* [Frdl](https://frdl.de) | - [Implementation-Example](https://github.com/frdl/translations#onpage-multilanguage-example)
+* [Frdl](https://frdl.de) | - [Implementation-Examples](#examples)
 * [JSDELIVR](https://www.jsdelivr.com/)
 * [UNPKG](https://unpkg.com/)
 
