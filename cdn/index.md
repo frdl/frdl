@@ -34,9 +34,8 @@ d.head.prepend(s);
 * [Multi-Language](https://github.com/frdl/translations#onpage-multilanguage-example)
 * [DM-Captcha](https://dm-captcha-sas.weid.info/)
 * [Domain Check (Simple Whois)](https://frdlweb.de/dns/domain-check)
-````HTML
 &lt;frdlweb-domain-check-whois ng-cloak=&amp;quot;&amp;quot;&gt;&lt;/frdlweb-domain-check-whois&gt;
-````
+
 
 # ℹ️ More info...
 
