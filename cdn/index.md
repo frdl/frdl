@@ -35,7 +35,9 @@ d.head.prepend(s);
 * [DM-Captcha](https://dm-captcha-sas.weid.info/)
 * [Domain Check (Simple Whois)](https://frdlweb.de/dns/domain-check)
 ````HTML
+<!-- HTML CODE:
 <frdlweb-domain-check-whois ng-cloak=""></frdlweb-domain-check-whois>
+-->
 ````
 
 # ℹ️ More info...
