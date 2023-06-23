@@ -7,11 +7,13 @@ Welcome to the World of [Frdlweb](/about/index), its [Software](https://webfan.d
 [Learn more about `Frdlweb`...](/about/)
 
 
- 
-<h4>
+<div style="text-align:center;"> 
+ <h4>
     Get <u>your</u> internet address:
-</h4>
-<frdlweb-domain-check-whois ng-cloak></frdlweb-domain-check-whois><span frdl-if-js-remove="500">Loading...</span>
+ </h4>
+  <frdlweb-domain-check-whois ng-cloak></frdlweb-domain-check-whois><span frdl-if-js-remove="500">Loading...</span>
+</div>
+
 
 <div  webfan-unsplash-keywords="hosting,internet,homepage,web,festival,unicorn,science,coding" style="text-align:center;">
 <ul style="list-style:none;text-align:center;">
