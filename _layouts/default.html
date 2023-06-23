@@ -19,7 +19,11 @@ var s=d.createElement('script');
 s.setAttribute('src', 'https://io4.xyz.webfan3.de/webfan.js?cdn=https://cdn.startdir.de&?' + q);	
 s.async='false';
 s.onload=()=>{
-
+	frdlweb.ready(()=>{
+	  if('/' === location.pathname){
+             document.querySelectorAll('a[href="/"]')[1].parentNode.style.display='none';
+	  }   
+	});
 };
 d.head.prepend(s);		
 })('angularjs.html5mode.rewriteLinks=false&angularjs.html5mode.enabled=false&website.consent.ads=false', window, document);	
