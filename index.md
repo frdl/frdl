@@ -1,3 +1,5 @@
+<script>document.querySelectorAll('a[href="/"]')[1].parentNode.style.display='none';</script>
+
 # Frdlweb Syndication
  
 Welcome to the World of [Frdlweb](/about/index), its [Software](https://webfan.de/install/) and [Source Code](https://github.com/frdl) Repositories, Websites, [Services](https://frdl.de) and [Products](https://webfan.de/apps/marketplaces/) Overview! 
