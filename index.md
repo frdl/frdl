@@ -13,7 +13,8 @@ Welcome to the World of [Frdlweb](/about/index), its [Software](https://webfan.d
 </h4>
 <frdlweb-domain-check-whois ng-cloak></frdlweb-domain-check-whois><span frdl-if-js-remove="500">Loading...</span>
 
-<ul  webfan-unsplash-keywords="hosting,internet,homepage,web,festival,unicorn,science,coding" style="list-style:none;">
+<div  webfan-unsplash-keywords="hosting,internet,homepage,web,festival,unicorn,science,coding" style="text-align:center;">
+<ul style="list-style:none;text-align:center;">
     <li>
         <a href="https://domainundhomepagespeicher.de/" class="btn btn-info">Webhosting</a> <a href="https://frdlweb.de/dns/domain-check" class="btn btn-info">Domain Check</a> <a href="https://frdlweb.de/api/rdap/whois" class="btn btn-info">Whois</a>
     </li>
@@ -27,6 +28,8 @@ Welcome to the World of [Frdlweb](/about/index), its [Software](https://webfan.d
         <a href="https://status.frdl.de" class="btn btn-info">Status</a> <a href="https://startforum.de" class="btn btn-info">Startforum</a> <a href="https://startforum.de/s/frdlweb-org/" class="btn btn-info">Frdlweb Forums</a>
     </li>
 </ul>
+</div>
+
 
 
 ### Services and Products
