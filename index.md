@@ -23,16 +23,16 @@ Welcome to the World of [Frdlweb](/about/index), its [Software](https://webfan.d
 
 <ul>
     <li>
-        <a href="https://domainundhomepagespeicher.de/">Webhosting</a> <a href="https://frdlweb.de/dns/domain-check">Domain Check</a> <a href="https://frdlweb.de/api/rdap/whois">Whois</a>
+        <a href="https://domainundhomepagespeicher.de/" class="btn btn-info">Webhosting</a> <a href="https://frdlweb.de/dns/domain-check" class="btn btn-info">Domain Check</a> <a href="https://frdlweb.de/api/rdap/whois" class="btn btn-info">Whois</a>
     </li>
     <li>
-        <a href="https://webfan.de">Webfan</a> <a href="https://api.webfan.de/apps/developer/">Webfan Developer</a> <a href="https://api.webfan.de/apps/">Webfan API</a>
+        <a href="https://webfan.de" class="btn btn-info">Webfan</a> <a href="https://api.webfan.de/apps/developer/" class="btn btn-info">Webfan Developer</a> <a href="https://api.webfan.de/apps/" class="btn btn-info">Webfan API</a>
     </li>
     <li>
-        <a href="https://registry.frdl.de">OID/WEID Registry</a> <a href="https://weid.info">WEID</a>
+        <a href="https://registry.frdl.de" class="btn btn-info">OID/WEID Registry</a> <a href="https://weid.info" class="btn btn-info">WEID</a>
     </li>
     <li>
-        <a href="https://status.frdl.de">Status</a> <a href="https://startforum.de">Startforum</a> <a href="https://startforum.de/s/frdlweb-org/">Frdlweb Forums</a>
+        <a href="https://status.frdl.de" class="btn btn-info">Status</a> <a href="https://startforum.de" class="btn btn-info">Startforum</a> <a href="https://startforum.de/s/frdlweb-org/" class="btn btn-info">Frdlweb Forums</a>
     </li>
 </ul>
 
