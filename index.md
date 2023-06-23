@@ -57,9 +57,7 @@ Welcome to the World of [Frdlweb](/about/index), its [Software](https://webfan.d
 
 
 
-<script type="text/javascript">
- document.querySelectorAll('a[href="/"]')[1].parentNode.style.display='none';
-</script>
+
 
 
 
