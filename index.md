@@ -7,21 +7,13 @@ Welcome to the World of [Frdlweb](/about/index), its [Software](https://webfan.d
 [Learn more about `Frdlweb`...](/about/)
 
 
-<h2>
-    Frdlweb
-</h2>
-<p>
-    Frdlweb maintains softwareprojects, internetproducts, <a href="https://webfan.de/apps/marketplaces/">webhosting</a>, <a href="https://webfan.de/apps/marketplaces/">domainregistration</a> and more. <a href="https://frdlweb.de/about/">Learn more about Frdlweb...</a>
-</p>
-<p>
-    Frdlweb assigns Object Identifier (OID) Numbers<a href="https://en.wikipedia.org/wiki/Object_identifier"><sup>[?]</sup></a> free of charge. <a href="https://registry.frdl.de">Learn more about our (free) OID/WEID -Registry...</a>
-</p>
+ 
 <h4>
     Get <u>your</u> internet address:
 </h4>
 <frdlweb-domain-check-whois ng-cloak></frdlweb-domain-check-whois><span frdl-if-js-remove="500">Loading...</span>
 
-<ul  webfan-unsplash-keywords="hosting,internet,homepage,web,festival,unicorn,science,coding">
+<ul  webfan-unsplash-keywords="hosting,internet,homepage,web,festival,unicorn,science,coding" style="list-style:none;">
     <li>
         <a href="https://domainundhomepagespeicher.de/" class="btn btn-info">Webhosting</a> <a href="https://frdlweb.de/dns/domain-check" class="btn btn-info">Domain Check</a> <a href="https://frdlweb.de/api/rdap/whois" class="btn btn-info">Whois</a>
     </li>
