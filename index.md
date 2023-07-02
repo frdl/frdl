@@ -33,17 +33,10 @@ Welcome to the World of [Frdlweb](/about/index), its [Software](https://webfan.d
 </div>
 
 
-
-### Services and Products
-+ [`Webfan Homepagesystem` Websites](https://webfan.de)
-+ [OID/`WEID` Registry](https://registry.frdl.de)
-+ [`STARTforum` Social Network](https://startforum.de)
-+ [more...](https://frdl.de)
-
 ### Software
-+ [Installation Wizards](https://webfan.de/install/)
-+ [Composer Packages](https://packages.frdl.de)
-+ [Code Repositories](https://github.com/frdl)  
++ [Used Packages](https://webfan.de/install/)
++ [@Github](https://github.com/frdl)
++ [IO4 #ToDo](https://frdl.de/search?q=io4)  
 
 ### Meta
 + [About](/about/)
