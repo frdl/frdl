@@ -1,6 +1,6 @@
-# Frdlweb Syndication
+# ❤️ Frdlweb Network
  
-Welcome to the World of [Frdlweb](/about/index), its [Software](https://webfan.de/install/) and [Source Code](https://github.com/frdl) Repositories, Websites, [Services](https://frdl.de) and [Products](https://webfan.de/apps/marketplaces/) Overview! 
+Welcome to the World of [Frdlweb](/about/index), its [Software](https://webfan.de/install/) and [Source Code](https://github.com/frdl) Repositories, [Websites](https://webfan.de/index.html), [Services](https://frdl.de) and **[Products](https://domainundhomepagespeicher.de/)** Overview! 
 
 ***We providez soft- hard- and friendlyness!*** 
 
