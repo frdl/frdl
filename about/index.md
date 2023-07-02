@@ -24,6 +24,9 @@ So we, the Wehowskis, our friends, partners, customers and users, we **make** th
 
 The cooperation between the two Wehowskis ended at the end of 2021 and we are now going our separate ways.
 
+# 2023 - Join the Network!
+* [Sign Up to Frdlweb](https://frdl.de/)
+
 </div>
  
  
@@ -45,6 +48,9 @@ Ihr Hauptziel ist es, die von den Wehowskis genutzte Entwicklungs- und Produktio
 Also wir, die Wehowskis, unsere Freunde, Partner, Kunden und Nutzer, wir ergeben das freundliche ***`Frdl`web*** alle ***zusammen***!
 
 Die Kooperation zwischen den beiden Wehowskis endete Ende 2021 und wir gehen nun getrennte Wege.
+
+# 2023 - Treten Sie dem Netzwerk bei!
+* [Melden Sie sich bei Frdlweb an](https://frdl.de/)
 
 </div>
 
