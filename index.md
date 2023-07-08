@@ -24,6 +24,7 @@ Welcome to the World of [Frdlweb](/about/index), its [Software](https://webfan.d
         <a href="https://webfan.de" class="btn btn-info">Webfan</a> <a href="https://api.webfan.de/apps/developer/" class="btn btn-info">Webfan Developer</a> <a href="https://api.webfan.de/apps/" class="btn btn-info">Webfan API</a>
     </li>
     <li>
+      <a href="https://dm-captcha-sas.weid.info/test-post.php" class="btn btn-info">✅ DM-Captcha</a> 
         <a href="https://registry.frdl.de" class="btn btn-info">OID/WEID Registry</a> <a href="https://weid.info" class="btn btn-info">WEID</a>
     </li>
     <li>
