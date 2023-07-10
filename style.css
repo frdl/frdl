@@ -111,9 +111,9 @@ Responsive navigation (pure CSS, no javascript) */
     display: block;
   }
   #mainnav {
-    background-image: url(/images/bg.png);
+ /*    background-image: url(/images/bg.png);*/
 
-/*    background-color: #333;*/
+   background-color: #222a32;
     position: absolute;
     right: 12px;
     z-index: 200;
