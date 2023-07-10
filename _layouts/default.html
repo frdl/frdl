@@ -22,6 +22,7 @@ s.onload=()=>{
 	frdlweb.ready(()=>{
 	  if('/' === location.pathname){
              document.querySelectorAll('a[href="/"]')[1].parentNode.style.display='none';
+	     document.querySelectorAll('a[href="/"]')[2].parentNode.style.display='none';
 	  }   
 	});
 };
