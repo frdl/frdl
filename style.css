@@ -70,7 +70,7 @@ Responsive navigation (pure CSS, no javascript) */
 
 #menu {
   height: 50px;
-  background-color: #222a32;
+  background-color: #09729f;
 }
 #menu_btn {
   display: none;
@@ -195,7 +195,7 @@ Responsive navigation (pure CSS, no javascript) */
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #222a32;
+  background-color: #09729f;
   color: white;
   text-align: center;
 }
