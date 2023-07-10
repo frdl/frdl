@@ -25,7 +25,10 @@ Welcome to the World of [Frdlweb](/about/index), its [Software](https://webfan.d
     </li>
     <li>
       <a href="https://dm-captcha-sas.weid.info/test-post.php" class="btn btn-info">✅ DM-Captcha</a> 
-        <a href="https://registry.frdl.de" class="btn btn-info">OID/WEID Registry</a> <a href="https://weid.info" class="btn btn-info">WEID</a>
+        <a href="https://registry.frdl.de" class="btn btn-info">OID/WEID Registry</a> <a href="https://weid.info" class="btn btn-info">
+         <img src="https://weid.info/favicon.ico" style="border:none;" />
+         WEID
+        </a>
     </li>
     <li>
         <a href="https://status.frdl.de" class="btn btn-info">Status</a> <a href="https://startforum.de" class="btn btn-info">Startforum</a> <a href="https://startforum.de/s/frdlweb-org/" class="btn btn-info">Frdlweb Forums</a>
