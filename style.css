@@ -122,6 +122,7 @@ Responsive navigation (pure CSS, no javascript) */
   #mainnav {
     animation:animatefadein .2s;
   }
+    /*
   @keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
   @keyframes animateright{from{right:-300px;opacity:0} to{right:14px;opacity:1}}
   @keyframes animatefadein{
@@ -140,7 +141,7 @@ Responsive navigation (pure CSS, no javascript) */
       transform:scale(0);
     }
   }
-
+*/
   #mainnav li ul {
     display: block;
     position: static;
