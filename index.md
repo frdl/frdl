@@ -7,7 +7,7 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://webfa
 [ℹ️ Learn more about `Frdlweb`...](/about/)
 
 ## Joint the Network!
-* [Melden Sie sich bei Frdlweb an...](https://frdl.de/)
+* [Sign Up to Frdlweb...](https://frdl.de/)
 
 
 <a name="services"></a>
