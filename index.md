@@ -27,7 +27,11 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://webfa
     </li>
     <li>
       <a href="https://dm-captcha-sas.weid.info/test-post.php" class="btn btn-info">✅ DM-Captcha</a> 
-        <a href="https://registry.frdl.de" class="btn btn-info">OID/WEID Registry</a> <a href="https://weid.info" class="btn btn-info">
+        <a href="https://registry.frdl.de" class="btn btn-info">
+         <img src="https://registry.frdl.de/plugins/viathinksoft/objectTypes/oid/img/root_icon16.png" style="border:none;" />
+         OID/WEID Registry
+        </a> 
+     <a href="https://weid.info" class="btn btn-info">
          <img src="https://weid.info/favicon.ico" style="border:none;" />
          WEID
         </a>
