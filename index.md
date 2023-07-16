@@ -1,6 +1,6 @@
 # [Frdlweb Network...](https://frdl.de)
  
-Welcome to the World of [Frdlweb](/about/index), its [Software](https://webfan.de/install/) and [Source Code](https://github.com/frdl) Repositories, [Websites](https://webfan.de/index.html), [Services](https://frdl.de) and **[Products](https://domainundhomepagespeicher.de/)** Overview! 
+Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://webfan.de/install/) and [Source Code](https://github.com/frdl) Repositories, [Websites](https://webfan.de/index.html), [Services](https://frdl.de) and **[Products](https://domainundhomepagespeicher.de/)** Overview! 
 
 ***We providez soft- hard- and friendlyness!*** 
 
