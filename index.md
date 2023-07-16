@@ -4,7 +4,7 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://webfa
 
 ***We providez soft- hard- and friendlyness!*** 
 
-[Learn more about `Frdlweb`...](/about/)
+[ℹ️ Learn more about `Frdlweb`...](/about/)
 
 
 <div style="text-align:center;"> 
