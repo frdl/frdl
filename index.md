@@ -9,6 +9,8 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://webfa
 ## Joint the Network!
 * [Melden Sie sich bei Frdlweb an...](https://frdl.de/)
 
+
+<a name="services"></a>
 <div style="text-align:center;"> 
  <h4>
     Get <u>your</u> internet address:
@@ -18,7 +20,7 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://webfa
 
 
 <div  webfan-unsplash-keywords="hosting,internet,homepage,web,festival,unicorn,science,coding" style="text-align:center;">
- <a name="services"></a>
+ 
 <ul style="list-style:none;text-align:center;">
     <li>
         <a href="https://domainundhomepagespeicher.de/" class="btn btn-info">Webhosting</a> <a href="https://frdlweb.de/dns/domain-check" class="btn btn-info">Domain Check</a> <a href="https://frdlweb.de/api/rdap/whois" class="btn btn-info">Whois</a>
