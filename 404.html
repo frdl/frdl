@@ -36,7 +36,7 @@ var content=200 === response.status ? await response.text() : 'Not found.';
       break;
   }
 
-var nc = template.replace(/\{\{ content \}\}/, content);
+var nc = template.replace(/\{\%\sseo\s\%\}/, '').replace(/\{\{ content \}\}/, content);
 document.open();
 document.write(nc);
 document.close();
