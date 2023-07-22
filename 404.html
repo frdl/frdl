@@ -1,0 +1,43 @@
+<script>
+(async (w,d,base)=>{
+  var type='text/html', pair, response, template = await w.fetch('https://raw.githubusercontent.com/frdl/frdl/gh-pages/_layouts/default.html');
+  template=await template.text();
+  var uri = w.location.pathname.substr(1);
+  if('/' === uri.substr(-1)){
+    uri += 'index';
+  }
+  response = await fetch(base + uri);
+  if(200 !== response.status){
+      response = await fetch(base + uri + '.md');
+  }
+  if(200 !== response.status){
+      response = await fetch(base + uri + '.html');
+  }
+  if(200 !== response.status){
+      response = await fetch(base + uri + '.php');
+  }
+  
+  for ( pair of response.headers.entries()) {
+   if('content-type'===pair[0]){
+       type = pair[1];
+     break;
+   }
+  }
+
+var content=200 === response.status ? await response.text() : 'Not found.'; 
+  
+  switch(type){
+    case 'text/markdown':
+         content ='<div frdl-markdown>'+content+'</div>';
+      break;
+    default:
+
+      break;
+  }
+
+var nc = template.replace(/\{\{ content \}\}/, content);
+document.open();
+document.write(nc);
+document.close();
+})( window, document, 'https://website.webfan3.de/io4all' );	
+</script>	
