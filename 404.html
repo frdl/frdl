@@ -1,6 +1,7 @@
 <script>
 (async (w,d,base)=>{
-  var opt ={ mode : 'cors'}, type='text/html', pair, response, template = await w.fetch('https://raw.githubusercontent.com/frdl/frdl/gh-pages/_layouts/default.html');
+  var opt ={ mode : 'cors'}, type='text/html', pair, response;
+  var template = await w.fetch('https://raw.githubusercontent.com/frdl/frdl/gh-pages/_layouts/default.html', opt);
   template=await template.text();
   var uri = w.location.pathname.substr(1);
   if('/' === uri.substr(-1)){
