@@ -41,6 +41,7 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://webfa
     </li>
     <li>
         <a href="https://status.frdl.de" class="btn btn-info">Status</a> <a href="https://startforum.de" class="btn btn-info">☕ Startforum</a> <a href="https://startforum.de/s/frdlweb-org/" class="btn btn-info">Frdlweb Forums</a>
+     <a href="https://smoke.tel/#videocall" class="btn btn-info" title="Videocall">☎️ Videocall</a>
     </li>
 </ul>
 </div>
