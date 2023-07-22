@@ -1,20 +1,20 @@
 <script>
 (async (w,d,base)=>{
-  var type='text/html', pair, response, template = await w.fetch('https://raw.githubusercontent.com/frdl/frdl/gh-pages/_layouts/default.html');
+  var opt ={ mode : 'cors'}, type='text/html', pair, response, template = await w.fetch('https://raw.githubusercontent.com/frdl/frdl/gh-pages/_layouts/default.html');
   template=await template.text();
   var uri = w.location.pathname.substr(1);
   if('/' === uri.substr(-1)){
     uri += 'index';
   }
-  response = await fetch(base + uri);
+  response = await fetch(base + uri, opt);
   if(200 !== response.status){
-      response = await fetch(base + uri + '.md');
+      response = await fetch(base + uri + '.md', opt);
   }
   if(200 !== response.status){
-      response = await fetch(base + uri + '.html');
+      response = await fetch(base + uri + '.html', opt);
   }
   if(200 !== response.status){
-      response = await fetch(base + uri + '.php');
+      response = await fetch(base + uri + '.php', opt);
   }
   
   for ( pair of response.headers.entries()) {
