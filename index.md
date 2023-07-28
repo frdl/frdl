@@ -25,11 +25,13 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://webfa
     <li>
         <a href="https://domainundhomepagespeicher.de/" class="btn btn-info">Webhosting</a> <a href="https://frdlweb.de/dns/domain-check" class="btn btn-info">Domain Check</a> <a href="https://frdlweb.de/api/rdap/whois" class="btn btn-info">Whois</a>
     </li>
-    <li>
-        <a href="https://webfan.de" class="btn btn-info">❤️ Webfan</a> <a href="https://api.webfan.de/apps/developer/" class="btn btn-info">Webfan Developer</a> <a href="https://api.webfan.de/apps/" class="btn btn-info">Webfan API</a>
+    <li>       <a href="https://api.webfan.de/apps/developer/" class="btn btn-info">Webfan Developer</a> <a href="https://api.webfan.de/apps/" class="btn btn-info">Webfan API</a>
     </li>
-    <li>
-      <a href="https://dm-captcha-sas.weid.info/test-post.php" class="btn btn-info">✅ DM-Captcha</a> 
+   <li>
+    <a href="https://webfan.de" class="btn btn-info" title="Webfan">❤️ Webfan</a>
+      <a href="https://dm-captcha-sas.weid.info/test-post.php" class="btn btn-info" title="Captcha Service">✅ DM-Captcha</a>
+   </li> 
+    <li>  
         <a href="https://registry.frdl.de" class="btn btn-info">
          <img src="https://registry.frdl.de/plugins/viathinksoft/objectTypes/oid/img/root_icon16.png" style="border:none;" />
          OID/WEID Registry
