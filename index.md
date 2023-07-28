@@ -1,6 +1,6 @@
 # Frdlweb ❤️
  
-Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://webfan.de/install/) and [Source Code](https://github.com/frdl) Repositories, [Websites](https://webfan.de/index.html), [Services](#services) and **[Products](https://domainundhomepagespeicher.de/)** Overview! 
+Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://packages.frdl.de/) and [Source Code](https://github.com/frdl) Repositories, [Websites](https://webfan.de/index.html), [Services](#services) and **[Products](https://domainundhomepagespeicher.de/)** Overview! 
 
 ***We providez soft- hard- and friendlyness!*** 
 
@@ -42,9 +42,11 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://webfa
         </a>
     </li>
     <li>
-        <a href="https://startforum.de" class="btn btn-info" title="Startforum social networks">☕ Startforum</a> <a href="https://startforum.de/s/frdlweb-org/" class="btn btn-info">Frdlweb Forums</a>
-     <a href="https://smoke.tel/#videocall" class="btn btn-info" title="Videocall">☎️ Videocall</a>
+        <a href="https://startforum.de" class="btn btn-info" title="Startforum social networks">☕ Startforum</a> <a href="https://frdl.de" class="btn btn-info">Frdlweb Network</a>
     </li>
+ <li>
+   <a href="https://smoke.tel/#videocall" class="btn btn-info" title="Videocall">☎️ Videocall</a>
+ </li>
  <li>
    <a href="https://status.frdl.de" class="btn btn-info" title="System Status">System Status</a>
  </li>
