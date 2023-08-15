@@ -1,4 +1,4 @@
-# Frdlweb ❤️
+# Frdlweb
  
 Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://packages.frdl.de/) and [Source Code](https://github.com/frdl) Repositories, [Websites](https://webfan.de/index.html), [Services](#services) and **[Products](https://domainundhomepagespeicher.de/)** Overview! 
 
