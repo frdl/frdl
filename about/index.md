@@ -15,6 +15,7 @@ The `Frdlweb` project has a long history for the Internet age and has already ex
 It was founded in the late 90s by Georg Wehowski as a hobby project serving a free-time single groups platform ("Cometogether") and became a commercial webhosting provider since 2004 until the end of 2021.
  
 The project is now run by [Till Wehowski](https://webfan.de/u/frdl-github-2658030), a coder and web host in Bochum (Germany).
+
 The cooperation between the two Wehowskis ended at the end of 2021 and we are now going our separate ways.
 
 Its main intend is to brand and group the development and productional infrastructure used by the Wehowskis, their hard- and software, as well as to provide open and non-profit software products and microservices to the public.
@@ -43,6 +44,7 @@ Das `Frdlweb` Projekt hat eine, für das Internetzeitalter lange, Geschichte und
 Es wurde Ende der 90er Jahre von Georg Wehowski als Hobbyprojekt für eine Freizeitplattform für Singlegruppen ("Cometogether") gegründet und war seit 2004 bis Ende 2021 ein kommerzieller Webhosting-Anbieter.
  
 Mittlerweile wird das Projekt von [Till Wehowski](https://webfan.de/u/frdl-github-2658030) betrieben, einem Coder und Webhoster in Bochum (Deutschland).
+
 Die Kooperation zwischen den beiden Wehowskis endete Ende 2021 und wir gehen nun getrennte Wege.
 
 Ihr Hauptziel ist es, die von den Wehowskis genutzte Entwicklungs- und Produktionsinfrastruktur, ihre Hard- und Software zu organisieren sowie offene und gemeinnützige Softwareprodukte und Microservices für die Öffentlichkeit bereitzustellen.
