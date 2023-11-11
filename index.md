@@ -62,7 +62,7 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://packa
 ### Meta
 + [About](/about/)
 + [Status](https://status.frdl.de)
-+ [@Twitter](https://twitter.com/TillWehowski)
++ [webfan@frdlweb](https://frdl.de/profile/webfan)
 + [Privacy Policy](https://registry.frdl.de/datenschutzerklaerung.html)
 + [Imprint](imprint.html)
 
