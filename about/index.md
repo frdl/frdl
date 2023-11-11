@@ -60,3 +60,4 @@ Also wir, die Wehowskis, unsere Freunde, Partner, Kunden und Nutzer, wir ergeben
 
 * [@Startforum](https://startforum.de/u/till.wehowski/)
 * @<a rel="me" href="https://phpc.social/@webfan">Mastodon</a>
++ [webfan@frdlweb](https://frdl.de/profile/webfan)
