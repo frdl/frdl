@@ -32,9 +32,9 @@ d.head.prepend(s);
 </script>
 ````
 * [Multi-Language](https://github.com/frdl/translations#onpage-multilanguage-example)
-* [DM-Captcha](https://dm-captcha-sas.weid.info/)
-* [Domain Check (Simple Whois)](https://frdlweb.de/dns/domain-check) &lt;frdlweb-domain-check-whois&gt;&lt;/frdlweb-domain-check-whois&gt;
-* [RSS Viewer Component](https://frdl.de/blog/view/1169/rss-viewer-frdlwebjs-component)
+* [DM-Captcha](https://dm-captcha-sas.weid.info/test-post.php)
+* [Domain Check (Simple Whois) Demo](https://frdlweb.de/dns/domain-check) Code: ````<frdlweb-domain-check-whois></frdlweb-domain-check-whois>````
+* [RSS Viewer Component](https://frdl.de/blog/view/1169/rss-viewer-frdlwebjs-component) | [Demo](/service/news)
 
 
 
