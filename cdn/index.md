@@ -6,8 +6,9 @@ title: CDN of Frdlweb
 
 Our Content Delivery Network, the `Frdlweb CDN` ( `cdn.frdl.de` ) is powered by (a proxy random race of):
 * [Frdl](https://frdl.de) | - [Implementation-Examples](https://frdlweb.de/cdn/index#examples)
-* [JSDELIVR](https://www.jsdelivr.com/)
-* [UNPKG](https://unpkg.com/)
+* [JSDELIVR](https://www.jsdelivr.com/) proxy/redirection
+* [UNPKG](https://unpkg.com/) proxy/redirection
+* [Cloudflare](https://cdnjs.cloudflare.com) proxy
 
 For example, the Frdlweb CDN is the host of our webfan-website.js project, wich runs most of the webfans/frdlwebs websites javascripts, even this site.
 
