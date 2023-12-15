@@ -2,13 +2,7 @@
  
 Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://packages.frdl.de/) and [Source Code](https://github.com/frdl) Repositories, [Websites](https://webfan.de/index.html), [Services](#services) and **[Products](https://domainundhomepagespeicher.de/)** Overview! 
 
-***We providez soft- hard- and friendlyness!*** 
-
-[ℹ️ Learn more about `Frdlweb`...](/about/)
-
-## Joint the Network!
-* [Sign Up to Frdlweb...](https://frdl.de/)
-
+***Websites with heart!*** 
 
 <a name="services"></a>
 <div style="text-align:center;"> 
@@ -52,27 +46,4 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://packa
  </li>
 </ul>
 </div>
-
-
-### Software
-+ [Used Packages](https://webfan.de/install/)
-+ [@Github](https://github.com/frdl)
-+ [IO4 #ToDo](https://frdl.de/search?q=io4)  
-
-### Meta
-+ [About](/about/)
-+ [Status](https://status.frdl.de)
-+ [webfan@frdlweb](https://frdl.de/profile/webfan)
-+ [Privacy Policy](https://registry.frdl.de/datenschutzerklaerung.html)
-+ [Imprint](imprint.html)
-
-
-
-
-
-
-
-
-
-
 
