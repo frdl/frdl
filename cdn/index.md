@@ -13,7 +13,7 @@ Our Content Delivery Network, the `Frdlweb CDN` ( `cdn.frdl.de` ) is powered by 
 For example, the Frdlweb CDN is the host of our webfan-website.js project, wich runs most of the webfans/frdlwebs websites javascripts, even this site.
 
 #### Examples
-* Main Core:
+* Main Core ([see how to config](https://frdl.de/blog/view/1208/webfanjs-webfan-websitejs-configuration-parameters)):
 ````HTML
 <script>
 ((q, w,d)=>{
@@ -37,6 +37,7 @@ d.head.prepend(s);
 * [Domain Check (Simple Whois) Demo](https://frdlweb.de/dns/domain-check) Code: ````<frdlweb-domain-check-whois></frdlweb-domain-check-whois>````
 * [RSS Viewer Component](https://frdl.de/blog/view/1169/rss-viewer-frdlwebjs-component) - [Demo](/service/news)
 * [Random (background) image](https://startforum.de/comment/perma?id=320)
+* [Dark Mode](https://frdl.de/blog/view/1213/darkmode-added-to-the-framework)
 
 
 
