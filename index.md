@@ -47,3 +47,8 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://packa
 </ul>
 </div>
 
+
+<div webfan-rss-feeds="https://frdl.de/user_support/faq/group/139?view=rss https://frdl.de/groups/profile/97/frdlweb-software?view=rss https://frdl.de/groups/profile/139/webmaster?view=rss https://frdl.de/groups/profile/152/weid-consortium?view=rss" webfan-rss-headline="h3" webfan-rss-max-items="15" 
+  style="max-height:3000px;"></div>
+  
+
