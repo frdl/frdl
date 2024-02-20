@@ -26,7 +26,7 @@ So we, the Wehowskis, our friends, partners, customers and users, we **make** th
 
 
 
-# 2023 - Join the Network!
+# Join the Network!
 * [Sign Up to Frdlweb](https://frdl.de/)
 
 </div>
@@ -53,7 +53,7 @@ Also wir, die Wehowskis, unsere Freunde, Partner, Kunden und Nutzer, wir ergeben
 
 
 
-# 2023 - Treten Sie dem Netzwerk bei!
+# Treten Sie dem Netzwerk bei!
 * [Melden Sie sich bei Frdlweb an](https://frdl.de/)
 
 </div>
