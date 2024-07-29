@@ -24,8 +24,8 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://packa
    <li>
     <a href="https://webfan.de" class="btn btn-info" title="Webfan">❤️ Webfan</a>
       <a href="https://dm-captcha-sas.weid.info/test-post.php" class="btn btn-info" title="Captcha Service">✅ DM-Captcha</a>
-     <a href="https://webfan.website" class="btn btn-info" title="@Web Business Card" ng-show="langIsDefault==true || langShortCode=='en'">@Web Business Card</a>
-     <a href="https://webfan.website" class="btn btn-info" title="@Web Visitenkarte" ng-show="langShortCode=='de'" ng-cloak>@Web Visitenkarte</a>
+     <a href="https://webfan.website" class="btn btn-info" title="@Web Business Card" ng-show="langIsDefault==true || langShortCode=='en'"><img src="https://webfan.website/favicon.ico" style="border:none;" /> @Web Business Card</a>
+     <a href="https://webfan.website" class="btn btn-info" title="@Web Visitenkarte" ng-show="langShortCode=='de'" ng-cloak><img src="https://webfan.website/favicon.ico" style="border:none;" /> @Web Visitenkarte</a>
    </li> 
     <li>  
         <a href="https://registry.frdl.de" class="btn btn-info">
