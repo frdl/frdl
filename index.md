@@ -50,7 +50,7 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://packa
 </div>
 
 
-<div webfan-rss-feeds="https://frdl.de/user_support/faq/group/139?view=rss https://frdl.de/groups/profile/97/frdlweb-software?view=rss https://frdl.de/groups/profile/139/webmaster?view=rss https://frdl.de/groups/profile/152/weid-consortium?view=rss" webfan-rss-headline="h3" webfan-rss-max-items="15" webfan-rss-sorting="desc" 
+<div webfan-rss-feeds="https://webfan.de/apps/feeds/?action=display&bridge=FeedMergeBridge&feed_name=Frdlweb&feed_1=https%3A%2F%2Ffrdl.de%2Fuser_support%2Ffaq%2Fgroup%2F139%3Fview%3Drss&feed_2=https%3A%2F%2Ffrdl.de%2Fgroups%2Fprofile%2F97%2Ffrdlweb-software%3Fview%3Drss&feed_3=https%3A%2F%2Ffrdl.de%2Fgroups%2Fprofile%2F139%2Fwebmaster%3Fview%3Drss&feed_4=https%3A%2F%2Ffrdl.de%2Fgroups%2Fprofile%2F152%2Fweid-consortium%3Fview%3Drss&feed_5=&feed_6=&feed_7=&feed_8=&feed_9=&feed_10=&limit=&format=Atom" webfan-rss-headline="h3" webfan-rss-max-items="15" webfan-rss-sorting="desc" 
   style="max-height:3000px;"></div>
   
 
