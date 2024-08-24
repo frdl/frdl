@@ -41,7 +41,7 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://packa
         <a href="https://startforum.de" class="btn btn-info" title="Startforum social networks">☕ Startforum</a> <a href="https://frdl.de" class="btn btn-info">🌐 Frdlweb Network</a> <a href="https://inne.city" class="btn btn-info">🌈 Fediverse City</a>
     </li>
  <li>
-   <a href="https://smoke.tel/#videocall" class="btn btn-info" title="Videocall">☎️ Videochat</a>
+   <a href="https://smoke.tel/" class="btn btn-info" title="Videocall">☎️ Videochat &amp; Gimmicks</a>
  </li>
  <li>
    <a href="https://status.frdl.de" class="btn btn-info" title="System Status">System Status</a>
