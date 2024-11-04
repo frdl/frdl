@@ -59,5 +59,4 @@ If you want to use it locally/on your own domain, you can use [this module](http
 </div>
 
  
-*Do you see a phishing warning for cdn.frdl.de? Please read the info: [https://startforum.de/content/perma?id=814](https://startforum.de/content/perma?id=814)*
- 
+
