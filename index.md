@@ -42,7 +42,11 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://packa
     </li>
  <li>
    <a href="https://smoke.tel/" class="btn btn-info" title="Videocall">☎️ Videochat &amp; Gimmicks</a>
+
+  <a href="https://startdir.de/" class="btn btn-info" title="classifieds and web catalogue" ng-show="langIsDefault==true || langShortCode=='en'">💱 classifieds &amp; web catalogue</a>
+     <a href="https://startdir.de/" class="btn btn-info" title="Kleinanzeigen und Webkatalog" ng-show="langShortCode=='de'" ng-cloak>💱 Kleinanzeigen &amp; Webkatalog</a>
  </li>
+ 
  <li>
    <a href="https://status.frdl.de" class="btn btn-info" title="System Status">System Status</a>
  </li>
