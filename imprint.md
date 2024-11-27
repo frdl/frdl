@@ -6,13 +6,12 @@ title: Imprint - Frdlweb
 
 # Imprint
 
-Till Wehowski
+Melanie Wehowski
 
 Wattenscheider Straße 59
 
-44793 Bochum
+DE 44793 Bochum
 
-Germany
 
 ----
 
