@@ -1,9 +1,0 @@
-[submodule "project"]
-	path = project
-	url = https://github.com/frdl/project
-[submodule "frdl.js"]
-	path = frdl.js
-	url = https://github.com/frdl/frdl.js
-[submodule "install-setup-wizard"]
-	path = install-setup-wizard
-	url = https://github.com/frdl/install-setup-wizard
