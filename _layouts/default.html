@@ -23,7 +23,11 @@ s.onload=()=>{
 	  if('/' === location.pathname){
              document.querySelectorAll('a[href="/"]')[1].parentNode.style.display='none';
 	     document.querySelectorAll('a[href="/"]')[2].parentNode.style.display='none';
-	  }   
+	  }else{
+             if(null !== document.querySelector('a[href="'+location.pathname+'"]')){
+                document.querySelector('a[href="'+location.pathname+'"]').parentNode.style.display='none';
+	     }
+	  }
 	});
 };
 d.head.prepend(s);		
