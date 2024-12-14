@@ -25,7 +25,13 @@ s.onload=()=>{
 	     document.querySelectorAll('a[href="/"]')[2].parentNode.style.display='none';
 	  }else{
              if(null !== document.querySelector('a[href="'+location.pathname+'"]')){
-                document.querySelector('a[href="'+location.pathname+'"]').parentNode.style.display='none';
+                 if(null !== document.querySelectorAll('a[href="'+location.pathname+'"]')[0]){
+                      document.querySelectorAll('a[href="'+location.pathname+'"]')[0].parentNode.style.display='none';
+		 }
+                 if(null !== document.querySelectorAll('a[href="'+location.pathname+'"]')[1]){
+                      document.querySelectorAll('a[href="'+location.pathname+'"]')[1].parentNode.style.display='none';
+		 }		     
+		     //document.querySelector('a[href="'+location.pathname+'"]').parentNode.style.display='none';
 	     }
 	  }
 	});
