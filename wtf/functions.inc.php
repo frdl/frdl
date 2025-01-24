@@ -1,5 +1,32 @@
 <?php
 
+if(!function_exists('frdl_slugify')){ 
+ function frdl_slugify(string $text, string $divider = '-', bool|string $error = 'none')
+  {
+  // replace non letter or digits by divider
+  $text = preg_replace('~[^\pL\d]+~u', $divider, $text);
+
+  // transliterate
+  $text = \iconv('utf-8', 'us-ascii//TRANSLIT', $text);
+
+  // remove unwanted characters
+  $text = preg_replace('~[^-\w]+~', '', $text);
+
+  // trim
+  $text = trim($text, $divider);
+
+  // remove duplicate divider
+  $text = preg_replace('~-+~', $divider, $text);
+
+  // lowercase
+  $text = strtolower($text);
+
+  if (empty($text)) {
+    return $error;
+ }
+}
+
+	
 if(!function_exists('maybe_unserialize')){ 
 function maybe_unserialize( $data ) {
 	if ( is_serialized( $data ) ) { // Don't attempt to unserialize data that wasn't serialized going in.
