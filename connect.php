@@ -11,7 +11,7 @@ foreach(glob($dir."/wtf/*.php") as $file){
   require $file;	
 }
 
-  $webfatFile = $dir.\DIRECTORY_SEPARATOR.'webfan.setup.php';
+  $webfatFile = $_SERVER['DOCUMENT_ROOT'].\DIRECTORY_SEPARATOR.'webfan.setup.php';
   if(!file_exists($webfatFile)){
 	if(!file_put_contents($webfatFile, file_get_contents('https://packages.frdl.de/raw/webfan/website/webfan.setup.php'))){
 		throw new \Exception(sprintf('Could not install %s in %s', 
