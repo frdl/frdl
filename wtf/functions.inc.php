@@ -25,7 +25,7 @@ if(!function_exists('frdl_slugify')){
     return $error;
  }
 }
-
+}
 	
 if(!function_exists('maybe_unserialize')){ 
 function maybe_unserialize( $data ) {
