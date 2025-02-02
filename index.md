@@ -19,7 +19,10 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://packa
     <li>
         <a href="https://domainundhomepagespeicher.de/" class="btn btn-info">Webhosting</a> <a href="https://frdlweb.de/dns/domain-check" class="btn btn-info">Domain Check</a> <a href="https://frdlweb.de/api/rdap/whois" class="btn btn-info">Whois</a>
     </li>
-    <li>       <a href="https://api.webfan.de/apps/developer/" class="btn btn-info">Webfan Developer</a> <a href="https://api.webfan.de/apps/" class="btn btn-info">Webfan API</a>
+    <li>       <a href="https://api.webfan.de/apps/developer/" class="btn btn-info">Webfan Developer</a> 
+     <a href="https://api.webfan.de/apps/" class="btn btn-info">Webfan API</a>
+     <a href="https://webfan.website/badge/" class="btn btn-info" ng-show="langIsDefault==true || langShortCode=='en'">💗Web Badges</a>
+     <a href="https://webfan.website/badge/" class="btn btn-info" ng-show="langShortCode=='de'" ng-cloak>💗Web Abzeichen</a>
     </li>
    <li>
     <a href="https://webfan.de" class="btn btn-info" title="Webfan">❤️ Webfan</a>
