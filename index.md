@@ -9,7 +9,9 @@ Welcome to the World of [Frdlweb](https://frdl.de), its [Software](https://packa
  <h4>
     Get <u>your</u> internet address:
  </h4>
+ <div style="min-height:120px;">
   <frdlweb-domain-check-whois ng-cloak></frdlweb-domain-check-whois><span frdl-if-js-remove="500">Loading...</span>
+ </div>
 </div>
 
 
