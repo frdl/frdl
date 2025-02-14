@@ -38,7 +38,7 @@ d.head.prepend(s);
 * [RSS Viewer Component](https://frdl.de/blog/view/1169/rss-viewer-frdlwebjs-component) - [Demo](/service/news)
 * [Random (background) image](https://startforum.de/comment/perma?id=320)
 * [Dark Mode](https://frdl.de/blog/view/1213/darkmode-added-to-the-framework)
-* [Markdown](https://frdl.de/blog/view/1225/webfanjs-frdlwebjs-markdown-components)
+* [Markdown, BBCode](https://frdl.de/blog/view/1225/webfanjs-frdlwebjs-markdown-components)
 
 
 
