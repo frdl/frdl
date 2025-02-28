@@ -1,5 +1,71 @@
 <?php
 
+
+
+if(!function_exists('frdl_substr_words')){ 
+ function frdl_substr_words(string $str, int $length, ?string $suffix = '...') : string {
+    $s = substr($str, 0, $length);
+    $subStr = substr($s, 0, strrpos($s, ' ')).$suffix;
+   return $subStr;
+ }
+}
+
+				   	
+
+
+
+
+if(!function_exists('frdl_get_browser_language')){ 
+function frdl_get_browser_language(array $available = [], string $default = 'en' , bool $onlyAccepted = true) {
+	if ( isset( $_SERVER[ 'HTTP_ACCEPT_LANGUAGE' ] ) ) {
+
+		$langs = explode( ',', $_SERVER['HTTP_ACCEPT_LANGUAGE'] );
+
+		if ( empty( $available ) ) {
+		  return empty( $langs ) ? $default : ($onlyAccepted ? false : substr( $langs[ 0 ], 0, 2 ));
+		}
+
+		foreach ( $langs as $lang ){
+			$lang = substr( $lang, 0, 2 );
+			if( in_array( $lang, $available ) ) {
+				return $lang;
+			}
+		}
+	}
+	return $default;
+}
+}
+
+
+if(!function_exists('frdl_strip_bbcode')){ 
+function frdl_strip_bbcode(string $text_to_search) : string {
+     $pattern = '|[[\/\!]*?[^\[\]]*?]|si';
+     $replace = '';
+     return preg_replace($pattern, $replace, $text_to_search);
+}
+}
+
+
+
+
+if(!function_exists('frdl_object_to_array')){ 
+function frdl_object_to_array($obj) : array {
+    //only process if it's an object or array being passed to the function
+    if(is_object($obj) || is_array($obj)) {
+        $ret = (array) $obj;
+        foreach($ret as &$item) {
+            //recursively process EACH element regardless of type
+            $item = frdl_object_to_array($item);
+        }
+        return $ret;
+    }
+    //otherwise (i.e. for scalar values) return without modification
+    else {
+        return $obj;
+    }
+}
+}
+
 if(!function_exists('frdl_slugify')){ 
  function frdl_slugify(string $text, string $divider = '-', bool|string $error = 'none')
   {
