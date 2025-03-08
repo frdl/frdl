@@ -18,7 +18,7 @@ For example, the Frdlweb CDN is the host of our webfan-website.js project, wich 
 <script>
 ((q, w,d)=>{
 var s=d.createElement('script');
-s.setAttribute('src', 'https://cdn.startdir.de/webfan.js?' + q);	
+s.setAttribute('src', 'https://cdn.frdl.de/webfan.js?' + q);	
 s.async='false';
 s.onload=async ()=>{
  frdlweb.ready(()=>{
