@@ -1,6 +1,179 @@
 <?php
 
 
+if(!function_exists('frdl_check_server_load_and_retry')){ 
+function frdl_check_server_load_and_retry(float $threshold = 5.0, ?int $reloadTime = 180000, ?int $maxRetries = 3)
+{
+    $secondsRetry = $reloadTime > 0 ? round($reloadTime / 1000, 0) : 180;
+    $load = sys_getloadavg()[0];
+
+    $retryCookieName = 'retry_attempted';
+    $retryCount = isset($_COOKIE[$retryCookieName]) ? (int)$_COOKIE[$retryCookieName] : 0;
+
+    // 💣 Max. Retry überschritten?
+    if ($load > $threshold && $retryCount >= $maxRetries) {
+        header('HTTP/1.1 503 Service Unavailable');
+        echo "Server is still overloaded. Maximum retry attempts reached. Please try again later. <button onclick=\"window.location.reload();\">Reload now</button>";
+        exit();
+    }
+
+    if ($load > $threshold) {
+        // 🍪 Retry-Zähler um eins erhöhen
+        setcookie($retryCookieName, $retryCount + 1, time() + 300, '/');
+
+        header('Retry-After: ' . $secondsRetry * 6);
+
+        // 🔍 API/FETCH Request Detection
+        $accept = $_SERVER['HTTP_ACCEPT'] ?? '';
+        $xhr = $_SERVER['HTTP_X_REQUESTED_WITH'] ?? '';
+        $contentType = $_SERVER['CONTENT_TYPE'] ?? '';
+        $isJson = str_contains($accept, 'application/json') || str_contains($contentType, 'application/json') || strtolower($xhr) === 'xmlhttprequest';
+
+        if ($isJson) {
+            header('Content-Type: application/json', true, 503);
+            echo json_encode([
+                'error' => 'Server overloaded',
+                'message' => 'The server is currently overloaded. Please try again later.',
+                'retry_after' => $secondsRetry,
+                'retry_count' => $retryCount + 1,
+                'retry_limit' => $maxRetries
+            ]);
+            exit();
+        }
+
+        // 📝 Daten vorbereiten
+        $method = strtoupper($_SERVER['REQUEST_METHOD']);
+		$formMethod = in_array($method, ['GET', 'POST']) ? $method : 'POST';
+        $action = $_SERVER['REQUEST_URI'];
+        $postData = json_encode($_POST);
+        $getData = json_encode($_GET);
+        $rawBody = file_get_contents('php://input');
+        $rawBodyEncoded = json_encode(base64_encode($rawBody));
+        $reloadTimeJS = is_numeric($reloadTime) && $reloadTime > 0 ? (int)$reloadTime : -1;
+
+        echo <<<HTMLCODE
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Server überlastet / Server Overloaded</title>
+    <script>
+        function recreateFormData(data, form) {
+            for (const key in data) {
+                if (data.hasOwnProperty(key)) {
+                    const input = document.createElement('input');
+                    input.type = 'hidden';
+                    input.name = key;
+                    input.value = data[key];
+                    form.appendChild(input);
+                }
+            }
+        }
+
+        function detectLanguage() {
+            const lang = navigator.language || navigator.userLanguage;
+            return lang.startsWith("de") ? "de" : "en";
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.getElementById('retryForm');
+            const method = "$method";
+            const postData = $postData;
+            const getData = $getData;
+            const rawBody = $rawBodyEncoded;
+            const reloadTime = $reloadTimeJS;
+            const seconds = $secondsRetry;
+            const lang = detectLanguage();
+
+            const texts = {
+                de: {
+                    title: "Der Server ist momentan ausgelastet.",
+                    wait: "Bitte einen Moment Geduld.",
+                    autoMsg: "Die Seite wird in <span id='countdown'></span> Sekunden automatisch erneut geladen.",
+                    manualMsg: "Du kannst es jetzt manuell erneut versuchen:",
+                    retryBtn: "Erneut senden"
+                },
+                en: {
+                    title: "The server is currently overloaded.",
+                    wait: "Please wait a moment.",
+                    autoMsg: "The page will automatically reload in <span id='countdown'></span> seconds.",
+                    manualMsg: "You can manually retry now:",
+                    retryBtn: "Retry"
+                }
+            };
+
+            const t = texts[lang];
+
+            document.getElementById('title').innerText = t.title;
+            document.getElementById('waitMsg').innerText = t.wait;
+            document.getElementById('autoRetryText').innerHTML = t.autoMsg;
+            document.getElementById('manualRetryText').innerText = t.manualMsg;
+            document.getElementById('retryBtn').innerText = t.retryBtn;
+
+            if (method === "GET") {
+                recreateFormData(getData, form);
+            } else if (method === "POST") {
+                recreateFormData(postData, form);
+            } else {
+                const input = document.createElement('input');
+                input.type = 'hidden';
+                input.name = '_raw';
+                input.value = rawBody;
+                form.appendChild(input);
+            }
+
+            const methodField = document.createElement('input');
+            methodField.type = 'hidden';
+            methodField.name = '_method';
+            methodField.value = method;
+            form.appendChild(methodField);
+
+            if (reloadTime > 0) {
+                let remaining = seconds;
+                const countdown = document.getElementById('countdown');
+                countdown.innerText = remaining;
+
+                const interval = setInterval(() => {
+                    remaining--;
+                    countdown.innerText = remaining;
+                    if (remaining <= 0) clearInterval(interval);
+                }, 1000);
+
+                document.getElementById('autoRetry').style.display = 'block';
+                setTimeout(() => form.submit(), reloadTime);
+            } else {
+                document.getElementById('manualRetry').style.display = 'block';
+            }
+        });
+    </script>
+</head>
+<body>
+    <h1 id="title">Lade...</h1>
+    <p id="waitMsg"></p>
+
+    <div id="autoRetry" style="display:none; margin-top: 20px;">
+        <p id="autoRetryText" style="background:url(data:image/gif;base64,R0lGODlhEAAQAPIAAGSV7SKLIlSRvTKMViKLIjqOb0OPiUeQliH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==) no-repeat;"></p>
+    </div>
+
+    <form id="retryForm" method="$formMethod" action="$action"></form>
+
+    <div id="manualRetry" style="display:none; margin-top: 20px;">
+        <p id="manualRetryText"></p>
+        <button type="button" id="retryBtn" onclick="document.getElementById('retryForm').submit();">Retry</button>
+    </div>
+</body>
+</html>
+HTMLCODE;
+
+        exit();
+    }else{
+	  if(isset($_COOKIE[$retryCookieName])){
+		  setcookie($retryCookieName, '', -1, '/'); 
+	  }
+    }
+}
+}
+
 
 if(!function_exists('frdl_substr_words')){ 
  function frdl_substr_words(string $str, int $length, ?string $suffix = '...') : string {
