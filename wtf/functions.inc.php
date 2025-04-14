@@ -1,5 +1,29 @@
 <?php
 
+if(!function_exists('frdl_throttle_on_high_load_exponential')){ 
+function frdl_throttle_on_high_load_exponential(float $threshold = 4.0, int $maxSleepMs = 2000, float $baseDelayMs = 100.0, float $expBase = 2.0)
+{
+    $load = sys_getloadavg()[0];
+
+    if ($load > $threshold) {
+        $overload = $load - $threshold;
+
+        // Exponential backoff: baseDelayMs * (expBase ^ overload)
+        $sleepMs = $baseDelayMs * pow($expBase, $overload);
+
+        // Clamp to maxSleepMs
+        $sleepMs = min($sleepMs, $maxSleepMs);
+
+        // Optional debug log
+        // error_log("Throttling with exponential delay: Load=$load, Sleep={$sleepMs}ms");
+
+        usleep((int)($sleepMs * 1000));
+    }
+}
+}
+
+
+
 
 if(!function_exists('frdl_check_server_load_and_retry')){ 
 function frdl_check_server_load_and_retry(float $threshold = 5.0, ?int $reloadTime = 180000, ?int $maxRetries = 3)
